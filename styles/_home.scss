@@ -1,0 +1,143 @@
+.container {
+  position: relative;
+  .name {
+    margin-top: 40px;
+    font-size: 8em;
+    text-align: center;
+  }
+
+  .designation {
+    font-size: 2em;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .contactLinks {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+    a {
+      display: block;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 1.5rem;
+      padding: 20px;
+      font-size: 2em;
+
+      i {
+        color: white;
+        text-shadow: 0px 0px 15px $red;
+        transition: all 0.7s ease-in-out;
+
+        &:hover {
+          color: $red;
+
+          text-shadow: 0px 0px 0px $red;
+        }
+      }
+    }
+  }
+
+  .action {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+    a {
+      display: block;
+      margin: 0 40px;
+      border-radius: 35px;
+      text-decoration: none;
+      font-size: 1.5rem;
+      padding: 20px;
+      color: $red;
+      box-shadow: 0px 0px 5px $red;
+      transition: all 0.7s ease-in-out;
+      i {
+        font-size: 1em;
+        padding-right: 10px;
+        color: $red;
+        text-shadow: none;
+      }
+
+      &:hover {
+        box-shadow: 0px 0px 15px $red;
+      }
+    }
+  }
+}
+
+.bgImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.container {
+  padding-top: 140px;
+}
+
+.container .me {
+  position: absolute;
+  top: -40px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: -1;
+  img {
+    border: 5px solid white;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 968px) {
+  .container {
+    padding-top: 220px;
+    .me {
+      top: 10px;
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+    .name {
+      font-size: 3em;
+    }
+
+    .designation {
+      font-size: 1.3em;
+    }
+
+    .contactLinks {
+      a {
+        font-size: 1.2em;
+
+        i {
+          text-shadow: 0px 0px 0px $red;
+          color: $red;
+        }
+      }
+    }
+
+    .action {
+      a {
+        margin: 0 10px;
+        font-size: 1.1em;
+        padding: 10px 15px;
+      }
+    }
+  }
+}

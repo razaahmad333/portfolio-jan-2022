@@ -1,0 +1,130 @@
+[
+  {
+    "name": "HTML5",
+    "level": "98%"
+  },
+  {
+    "name": "CSS3",
+    "level": "95%"
+  },
+  {
+    "name": "SASS",
+    "level": "90%"
+  },
+  {
+    "name": "JavaScript",
+    "level": "97%"
+  },
+  {
+    "name": "TypeScript",
+    "level": "50%"
+  },
+  {
+    "name": "Python",
+    "level": "50%"
+  },
+  {
+    "name": "jQuery",
+    "level": "30%"
+  },
+  {
+    "name": "Bootstrap",
+    "level": "70%"
+  },
+  {
+    "name": "Tailwind CSS",
+    "level": "70%"
+  },
+  {
+    "name": "Materialize CSS",
+    "level": "70%"
+  },
+
+  {
+    "name": "Git",
+    "level": "70%"
+  },
+  {
+    "name": "GitHub",
+    "level": "70%"
+  },
+  {
+    "name": "SEO",
+    "level": "70%"
+  },
+  {
+    "name": "React",
+    "level": "98%"
+  },
+  {
+    "name": "React Bootstrap",
+    "level": "80%"
+  },
+  {
+    "name": "Next.js",
+    "level": "50%"
+  },
+  {
+    "name": "Redux",
+    "level": "40%"
+  },
+  {
+    "name": "Express.js",
+    "level": "80%"
+  },
+  {
+    "name": "RESTful API",
+    "level": "90%"
+  },
+  {
+    "name": "Node.js",
+    "level": "70%"
+  },
+  {
+    "name": "JWT",
+    "level": "70%"
+  },
+  {
+    "name": "Bcrypt",
+    "level": "70%"
+  },
+  {
+    "name": "Mongo DB",
+    "level": "50%"
+  },
+  {
+    "name": "Firebase",
+    "level": "70%"
+  },
+  {
+    "name": "Firebase Hosting",
+    "level": "70%"
+  },
+  {
+    "name": "Firebase Auth",
+    "level": "70%"
+  },
+
+  {
+    "name": "Firebase Firestore",
+    "level": "70%"
+  },
+
+  {
+    "name": "P5.js",
+    "level": "90%"
+  },
+
+  {
+    "name": "PHP",
+    "level": "40%"
+  },
+  {
+    "name": "MySQL",
+    "level": "40%"
+  },
+  {
+    "name": "Blender",
+    "level": "40%"
+  }
+]

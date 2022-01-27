@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+$red1: #da3f3f;
+
+$color1: #f5f5f5;
+$color2: #1980a0;
+// $fff: rgb(216, 211, 211);
+$fff: rgb(253, 252, 252);
+$red: #da202f;
+$blue: #d81b6a;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courgette", cursive;
+  // font-family: "Sedgwick Ave", cursive;
+  // font-family: "Mochiy Pop P One", sans-serif;
+  // font-family: "Share Tech", sans-serif;
+  box-sizing: border-box;
+  // color: $blue;
+}
+
+.filled {
+  color: $red;
+}
+
+.outlined {
+  color: white;
+  text-shadow: 0px 5px 5px $red;
+}
+
+@import "./navbar";
+@import "./home";
+@import "./projects";
+@import "./skills";

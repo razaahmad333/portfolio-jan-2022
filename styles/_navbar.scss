@@ -1,0 +1,44 @@
+nav {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+    color: $red;
+    font-size: 1.5em;
+
+    &:hover {
+      box-shadow: 0px 0px 8px 0px $red;
+      color: $red;
+    }
+  }
+  .middle {
+    display: none;
+    font-size: 2.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    .left {
+      display: flex;
+      justify-content: space-evenly;
+      a {
+        padding: 5px 50px;
+      }
+    }
+    .middle {
+      display: none;
+    }
+    .right {
+      display: none;
+    }
+  }
+}
