@@ -166,14 +166,17 @@
 
         .info {
           border-radius: 20px;
-
+          font-size: 0.95em;
           p {
             height: 70px;
           }
-        }
 
-        video {
-          border-radius: 20px;
+          .projectLinks {
+            margin-bottom: 5px;
+            a {
+              margin-right: 10px;
+            }
+          }
         }
       }
     }

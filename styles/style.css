@@ -428,12 +428,16 @@ nav .middle {
   }
   .projectSection .projects .projectVideo .info {
     border-radius: 20px;
+    font-size: 0.95em;
   }
   .projectSection .projects .projectVideo .info p {
     height: 70px;
   }
-  .projectSection .projects .projectVideo video {
-    border-radius: 20px;
+  .projectSection .projects .projectVideo .info .projectLinks {
+    margin-bottom: 5px;
+  }
+  .projectSection .projects .projectVideo .info .projectLinks a {
+    margin-right: 10px;
   }
 }
 
