@@ -638,7 +638,7 @@ nav .middle {
         grid-template-columns: repeat(3, 1fr);
   }
   .skillSection .skillNames div .nameSkill {
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
   .skillSection .skillNames div .level {
     height: 3px;
