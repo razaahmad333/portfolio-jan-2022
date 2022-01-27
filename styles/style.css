@@ -208,7 +208,7 @@ nav .middle {
     height: 200px;
   }
   .container .name {
-    font-size: 3em;
+    font-size: 2.8em;
   }
   .container .designation {
     font-size: 1.3em;
@@ -421,7 +421,7 @@ nav .middle {
             box-shadow: 0px 0px 10px 0 #da202f;
     margin: 10px 0;
     border-radius: 20px;
-    height: 200px;
+    height: 180px;
   }
   .projectSection .projects .projectVideo .projectImage img {
     border-radius: 20px;
