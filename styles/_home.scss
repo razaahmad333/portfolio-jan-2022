@@ -1,6 +1,7 @@
 .container {
   position: relative;
   .name {
+    color: $primary1;
     margin-top: 40px;
     font-size: 8em;
     text-align: center;
@@ -10,6 +11,7 @@
     font-size: 2em;
     margin: 20px 0;
     text-align: center;
+    color: $primary;
   }
 
   .contactLinks {
@@ -26,14 +28,14 @@
       font-size: 2em;
 
       i {
-        color: white;
-        text-shadow: 0px 0px 15px $red;
+        color: $primary1;
+        // text-shadow: 0px 0px 15px $red;
         transition: all 0.7s ease-in-out;
 
         &:hover {
-          color: $red;
-
-          text-shadow: 0px 0px 0px $red;
+          // color: $red;
+          color: $primary;
+          // text-shadow: 0px 0px 0px $red;
         }
       }
     }
@@ -51,18 +53,18 @@
       text-decoration: none;
       font-size: 1.5rem;
       padding: 20px;
-      color: $red;
-      box-shadow: 0px 0px 5px $red;
+      color: $primary1;
+      box-shadow: 0px 0px 5px $tertiary;
       transition: all 0.7s ease-in-out;
       i {
         font-size: 1em;
         padding-right: 10px;
-        color: $red;
+        color: $primary1;
         text-shadow: none;
       }
 
       &:hover {
-        box-shadow: 0px 0px 15px $red;
+        box-shadow: 0px 0px 5px $secondary;
       }
     }
   }
@@ -98,7 +100,7 @@
     border: 5px solid white;
     width: 250px;
     height: 250px;
-    border-radius: 100%;
+    // border-radius: 100%;
     object-fit: cover;
   }
 }
@@ -124,19 +126,14 @@
     .contactLinks {
       a {
         font-size: 1.2em;
-
-        i {
-          text-shadow: 0px 0px 0px $red;
-          color: $red;
-        }
       }
     }
 
     .action {
       a {
         margin: 0 10px;
-        font-size: 1.1em;
-        padding: 10px 15px;
+        font-size: 1em;
+        padding: 10px;
       }
     }
   }
