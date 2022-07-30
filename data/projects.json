@@ -9,8 +9,14 @@
       "./images/Electron/img 17.jpg",
       "./images/Electron/img 18.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/myschool-c6086.appspot.com/o/ece.mp4?alt=media&token=6819e134-d3a6-44c7-a793-f09e38d1cb46",
-    "techs": ["React", "Sass/CSS3", "ChartJS", "Express", "MongoDB"],
+    "videoURL": "https://youtu.be/ZAVQ3KJ6rxE",
+    "techs": [
+      "React",
+      "Sass/CSS3",
+      "ChartJS",
+      "Express",
+      "MongoDB"
+    ],
     "github": "https://github.com/razaahmad333/electron",
     "live": "https://electron-client.vercel.app/"
   },
@@ -24,15 +30,19 @@
       "./images/ElectronApi/img 12.jpg",
       "./images/ElectronApi/img 13.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/myschool-c6086.appspot.com/o/eae.mp4?alt=media&token=7ea1749f-936f-47e2-9936-8dbc3057366f",
-    "techs": ["Express", "MongoDB", "HTML5", "Sass/CSS3", "Carbon"],
+    "videoURL": "https://youtu.be/KNQrTIZqe1Y",
+    "techs": [
+      "Express",
+      "MongoDB",
+      "HTML5",
+      "Sass/CSS3",
+      "Carbon"
+    ],
     "github": "https://github.com/razaahmad333/electron",
     "live": "https://electron-server.herokuapp.com/"
   },
-
   {
     "name": "Mubaraah",
-
     "images": [
       "./images/Mubaraah/img 19.jpg",
       "./images/Mubaraah/img 20.jpg",
@@ -40,14 +50,16 @@
       "./images/Mubaraah/img 22.jpg",
       "./images/Mubaraah/img 23.jpg"
     ],
-
     "description": " Mubaraah is a social network where you can meet people with similar interests and hobbies.",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/quotesman-e0a23.appspot.com/o/mue.mp4?alt=media&token=2b5b16bc-56bf-4976-96e5-4430eb996e0c",
-    "techs": ["React", "Sass/CSS3", "Firebase"],
+    "videoURL": "https://www.youtube.com/watch?v=nyZLOekIAk8",
+    "techs": [
+      "React",
+      "Sass/CSS3",
+      "Firebase"
+    ],
     "github": "https://github.com/razaahmad333/mubaraa",
     "live": "https://mubaraa-edaf4.web.app/"
   },
-
   {
     "name": "CSV.pdf",
     "id": 1,
@@ -58,13 +70,17 @@
       "./images/CSV.pdf/img 28.jpg",
       "./images/CSV.pdf/img 27.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-ef6f7.appspot.com/o/csv_file_to_pdf.mp4?alt=media&token=abea976f-19d7-481d-9d50-374724ebd5f6",
-    "techs": ["ReactJS", "Redux", "TypeScript", "Sass/CSS3"],
+    "videoURL": "https://www.youtube.com/watch?v=YIo4XyVL5_o",
+    "techs": [
+      "ReactJS",
+      "Redux",
+      "TypeScript",
+      "Sass/CSS3"
+    ],
     "description": "Convert CSV file to PDF",
     "github": "https://github.com/razaahmad333/csv-file-to-pdf",
     "live": "#"
   },
-
   {
     "name": "Galaxeome",
     "images": [
@@ -75,12 +91,16 @@
       "./images/Galaxeome/img 34.jpg"
     ],
     "description": "A web app where you can explore movies and tv shows",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/quotesman-e0a23.appspot.com/o/GalaxeomeEdit.mp4?alt=media&token=e4724e79-1214-4c0d-9af1-6a5949d68cb6",
-    "techs": ["React", "Sass/CSS3", "REST API", "Firebase"],
-    "github": "#",
+    "videoURL": "https://www.youtube.com/watch?v=_MBPpFzTm18",
+    "techs": [
+      "React",
+      "Sass/CSS3",
+      "REST API",
+      "Firebase"
+    ],
+    "github": "https://github.com/razaahmad333",
     "live": "https://galaxeome.firebaseapp.com/"
   },
-
   {
     "name": "Graphiti",
     "images": [
@@ -91,13 +111,17 @@
       "./images/Graphiti/img 39.jpg"
     ],
     "description": "A initiative to create a platform for students to learn and share their knowledge of art and graphic designing ",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-ef6f7.appspot.com/o/augpe.mp4?alt=media&token=7ef8aef2-3a02-4827-b246-4a8832112a1f",
-    "techs": ["React", "Sass/CSS3", "Firebase"],
+    "videoURL": "https://youtu.be/MK_GqAyh0DI",
+    "techs": [
+      "React",
+      "Sass/CSS3",
+      "Firebase"
+    ],
     "github": "https://github.com/razaahmad333/graphiti-react-app",
     "live": "https://graphiti-dev.web.app/"
   },
   {
-    "name": "Fashion Install",
+    "name": "Fashion Instant",
     "images": [
       "./images/Fashion/img 43.jpg",
       "./images/Fashion/img 44.jpg",
@@ -105,14 +129,16 @@
       "./images/Fashion/img 46.jpg",
       "./images/Fashion/img 47.jpg"
     ],
-
     "description": "A web app where you can find the latest fashion trends and style",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/quotesman-e0a23.appspot.com/o/fie.mp4?alt=media&token=2811f67b-a05f-496d-8a1d-12fb8582e8f1",
-    "techs": ["React", "Sass/CSS3", "Firebase"],
-    "github": "#",
+    "videoURL": "https://youtu.be/nmtKiUnA4_8",
+    "techs": [
+      "React",
+      "Sass/CSS3",
+      "Firebase"
+    ],
+    "github": "https://github.com/razaahmad333",
     "live": "https://fashion-insta-333.firebaseapp.com/"
   },
-
   {
     "name": "Philosophy",
     "images": [
@@ -123,9 +149,14 @@
       "./images/Philosophy/img 53.jpg"
     ],
     "description": "A web app where you can find  philosophy  ",
-    "videoURL": "https://drive.google.com/file/d/101cSjVuzz77PiM5quMNtMC6PnFgJf4h1/view?usp=sharing",
-    "techs": ["React", "Sass/CSS3", "REST API", "Firebase"],
-    "github": "#",
+    "videoURL": "https://www.youtube.com/watch?v=xDN51HbK2t8",
+    "techs": [
+      "React",
+      "Sass/CSS3",
+      "REST API",
+      "Firebase"
+    ],
+    "github": "https://github.com/razaahmad333",
     "live": "https://philosophy-it.firebaseapp.com/"
   },
   {
@@ -138,12 +169,16 @@
       "./images/Jokesman/img 58.jpg"
     ],
     "description": "A web app where you can find jokes",
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/quotesman-e0a23.appspot.com/o/je.mp4?alt=media&token=48b25447-c7b7-43ff-964e-cc264c43a580",
-    "techs": ["React", "Sass/CSS3", "REST API", "Firebase"],
-    "github": "#",
+    "videoURL": "https://youtu.be/72NlURx3270",
+    "techs": [
+      "React",
+      "Sass/CSS3",
+      "REST API",
+      "Firebase"
+    ],
+    "github": "https://github.com/razaahmad333",
     "live": "https://jokesman.firebaseapp.com/"
   },
-
   {
     "name": "Camping",
     "id": 1,
@@ -154,16 +189,19 @@
       "./images/Camping/img 62.jpg",
       "./images/Camping/img 63.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-ef6f7.appspot.com/o/campingEdit.mp4?alt=media&token=3dac773f-0602-49b9-8f3a-5405b573396a",
-    "techs": ["HTML5", "Sass/CSS3", "JavaScript"],
+    "videoURL": "https://youtu.be/M8o2Uj-XapU",
+    "techs": [
+      "HTML5",
+      "Sass/CSS3",
+      "JavaScript"
+    ],
     "description": "A web app where you can find camping spots near you",
-    "github": "#",
+    "github": "https://github.com/razaahmad333",
     "live": "https://zen-kepler-381c9d.netlify.app/"
   },
   {
     "name": "Sneakers",
     "id": 1,
-
     "images": [
       "./images/Sneakers/img 64.jpg",
       "./images/Sneakers/img 65.jpg",
@@ -171,13 +209,16 @@
       "./images/Sneakers/img 67.jpg",
       "./images/Sneakers/img 68.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/quotesman-e0a23.appspot.com/o/sneakers.mp4?alt=media&token=c0a0a788-8827-4c94-89a7-7ee417c1bb02",
-    "techs": ["HTML5", "Sass/CSS3", "JavaScript"],
+    "videoURL": "https://youtu.be/3RTuKzHucW8",
+    "techs": [
+      "HTML5",
+      "Sass/CSS3",
+      "JavaScript"
+    ],
     "description": "The frontend of app where you can find sneakers near you",
     "github": "https://github.com/razaahmad333/sneakers",
     "live": "https://sneakers-eight.vercel.app/"
   },
-
   {
     "name": "Ads Managing Dashboard",
     "id": 1,
@@ -188,13 +229,16 @@
       "./images/AdsManaging/img 72.jpg",
       "./images/AdsManaging/img 73.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/myschool-c6086.appspot.com/o/dashe.mp4?alt=media&token=339eb73a-9f13-473f-884e-e5ca4436297b",
-    "techs": ["HTML5", "Sass/CSS3", "JavaScript"],
+    "videoURL": "https://youtu.be/Qx1EBa3sH3U",
+    "techs": [
+      "HTML5",
+      "Sass/CSS3",
+      "JavaScript"
+    ],
     "description": "A website where you can manage your ads",
     "github": "https://github.com/razaahmad333",
     "live": "https://pedantic-neumann-134d1f.netlify.app/"
   },
-
   {
     "name": "First Portfolio",
     "id": 3,
@@ -205,8 +249,11 @@
       "./images/FirstPortfolio/img 77.jpg",
       "./images/FirstPortfolio/img 78.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/quotesman-e0a23.appspot.com/o/eporte.mp4?alt=media&token=388c2822-6d9c-44fa-a81e-35fa963cbdab",
-    "techs": ["HTML5", "MaterializeCSS"],
+    "videoURL": "https://youtu.be/pJPXeXAKQSM",
+    "techs": [
+      "HTML5",
+      "MaterializeCSS"
+    ],
     "description": "In March 2021 I created my first portfolio ",
     "github": "https://github.com/razaahmad333/ahmad_raza",
     "live": "https://compassionate-mccarthy-aacaae.netlify.app/index.html"
@@ -221,8 +268,11 @@
       "./images/augPortfolio/img 7.jpg",
       "./images/augPortfolio/img 8.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-ef6f7.appspot.com/o/augPorte.mp4?alt=media&token=b4f37acc-033a-46d3-961f-bc90bf26d2fd",
-    "techs": ["HTML5", "Sass/CSS3"],
+    "videoURL": "https://youtu.be/XZLlKSjsCPQ",
+    "techs": [
+      "HTML5",
+      "Sass/CSS3"
+    ],
     "description": "In August 2021 I created my second portfolio ",
     "github": "https://github.com/razaahmad333",
     "live": "https://portfolio-2-nine.vercel.app/"
@@ -237,8 +287,11 @@
       "./images/FyloClone/img 82.jpg",
       "./images/FyloClone/img 83.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/quotesman-e0a23.appspot.com/o/fylo.mp4?alt=media&token=d16bfb19-c0d1-4263-944d-0a34d4b1530e",
-    "techs": ["HTML5", "Sass/CSS3"],
+    "videoURL": "https://www.youtube.com/watch?v=_I39pVoobHE",
+    "techs": [
+      "HTML5",
+      "Sass/CSS3"
+    ],
     "description": "I made this Fylo clone which was challenge from frontendmentor.com ",
     "github": "https://github.com/razaahmad333/Fylo-landing-page",
     "live": "https://condescending-thompson-721592.netlify.app/"
@@ -253,8 +306,12 @@
       "./images/Quotesman/img 87.jpg",
       "./images/Quotesman/img 88.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/quotesman-e0a23.appspot.com/o/qe.mp4?alt=media&token=95d9003b-d4a6-4940-b224-3e7648393685",
-    "techs": ["HTML5", "Bootstrap", "JavaScript"],
+    "videoURL": "https://youtu.be/BdZMIKr-uaU",
+    "techs": [
+      "HTML5",
+      "Bootstrap",
+      "JavaScript"
+    ],
     "description": "A web app where you can find quotes",
     "github": "https://github.com/razaahmad333/quotesman",
     "live": "https://quotesman.vercel.app/"
@@ -269,8 +326,12 @@
       "./images/TipCalculator/img 92.jpg",
       "./images/TipCalculator/img 93.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/quotesman-e0a23.appspot.com/o/tce.mp4?alt=media&token=43752c14-0393-4b72-a8a0-43edbd4fc294",
-    "techs": ["HTML5", "Sass/CSS3", "JavaScript"],
+    "videoURL": "https://youtu.be/aMncfydiQ10",
+    "techs": [
+      "HTML5",
+      "Sass/CSS3",
+      "JavaScript"
+    ],
     "description": "I made this tip calculator which was challenge from frontendmentor.com ",
     "github": "https://github.com/razaahmad333/tip-calculator",
     "live": "https://condescending-mcclintock-5fa5f8.netlify.app/"
@@ -285,8 +346,12 @@
       "./images/TimeTracking/img 97.jpg",
       "./images/TimeTracking/img 99.jpg"
     ],
-    "videoURL": "https://firebasestorage.googleapis.com/v0/b/quotesman-e0a23.appspot.com/o/tte.mp4?alt=media&token=71170f64-f3f5-4491-939b-d09dc8bd798d",
-    "techs": ["HTML5", "Sass/CSS3", "JavaScript"],
+    "videoURL": "https://youtu.be/F_G9Ep4lwMI",
+    "techs": [
+      "HTML5",
+      "Sass/CSS3",
+      "JavaScript"
+    ],
     "description": " I made this time tracking dashboard which was challenge from frontendmentor.com ",
     "github": "https://github.com/razaahmad333/Time-tracking-dashboard",
     "live": "https://time-tracking-dashboard-smoky.vercel.app/"
