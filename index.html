@@ -43,17 +43,24 @@
         <div class="designation fiklled">I design web apps</div>
 
         <div class="contactLinks">
-          <a href="https://www.linkedin.com/in/ahmadrazakhan946/">
-            <i class="fab fa-linkedin olutlined"></i>
+          <a href="https://www.linkedin.com/in/ahmadrazakhan946/" title="LinkedIn">
+            <i class="fab fa-linkedin "></i>
           </a>
-          <a href="https://github.com/razaahmad333">
-            <i class="fab fa-github outllined"></i>
+          <a href="https://github.com/razaahmad333" title="Github">
+            <i class="fab fa-github "></i>
           </a>
-          <a href="https://twitter.com/ahmadraza946_">
-            <i class="fab fa-twitter outllined"></i>
+          <a href="https://twitter.com/ahmadraza946_" title="Twitter">
+            <i class="fab fa-twitter "></i>
           </a>
-          <a href="https://stackoverflow.com/users/15759097/ahmad-raza">
-            <i class="fab fab fa-stack-overflow ouktlined"></i>
+          <a href="https://ahmadrazakhan946.hashnode.dev" title="Hashnode Blogs">
+            <i class="fa fa-blog "></i>
+          </a>
+          <a href="https://leetcode.com/razaahmad333" title="Leetcode">
+            <i class="fa fa-code "></i>
+          </a>
+
+          <a href="https://www.instagram.com/ahmadrazakhan946" title="Instagram">
+            <i class="fab fa-instagram "></i>
           </a>
         </div>
 
@@ -94,20 +101,20 @@
       <h2>Techs, I have worked on!</h2>
       <div class="skillNames"></div>
       <div class="skills">
-        <i class="fab fab fa-html5"> </i>
-        <i class="fab fab fa-css3-alt"> </i>
-        <i class="fab fab fa-js-square"> </i>
+        <i class="fab fab fa-html5" title="HTML"> </i>
+        <i class="fab fab fa-css3-alt" title="CSS"> </i>
+        <i class="fab fab fa-js-square" title="Javascript"> </i>
         <!-- <i class="fab fab fa-ts-sq"> </i> -->
-        <i class="fab fab fa-react"> </i>
+        <i class="fab fab fa-react" title="React"> </i>
 
-        <i class="fab fab fa-node-js"> </i>
-        <i class="fab fab fa-python"> </i>
-        <i class="fab fab fa-npm"> </i>
-        <i class="fab fab fa-git"> </i>
-        <i class="fab fab fa-github"> </i>
-        <i class="fab fab fa-sass"> </i>
-        <i class="fab fab fa-bootstrap"> </i>
-        <i class="fab fab fa-figma"> </i>
+        <i class="fab fab fa-node-js" title="NodeJs"> </i>
+        <i class="fab fab fa-python" title="Python"> </i>
+        <i class="fab fab fa-npm" title="Node Package Manager"> </i>
+        <i class="fab fab fa-git" title="Git"> </i>
+        <i class="fab fab fa-github" title="Github"> </i>
+        <i class="fab fab fa-sass" title="SASS"> </i>
+        <i class="fab fab fa-bootstrap" title="Bootstrap"> </i>
+        <i class="fab fab fa-figma" title="Figma"> </i>
 
         <!-- <i class="fab fab  "> </i> -->
       </div>
@@ -130,6 +137,7 @@
             let level = document.createElement("span");
             level.classList.add("level");
             level.style.width = skill.level;
+            skillNameDiv.setAttribute("title", skill.level);
             skillNameDiv.appendChild(level);
             skillNamesContainer.appendChild(skillNameDiv);
           });
