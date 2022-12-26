@@ -36,11 +36,24 @@ $quaternary: #ffe8e8;
 }
 
 .outlined {
-  color: white;
-  text-shadow: 0px 2px 2px $primary;
+  color: $primary1;
+  // text-shadow: 0px 2px 2px $primary;
+}
+
+.moreLink {
+  a {
+    color: $primary1;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+  }
+
+  text-align: center // text-shadow: 0px 2px 2px $primary;
 }
 
 @import "./navbar";
 @import "./home";
+@import "./blogs";
 @import "./projects";
 @import "./skills";

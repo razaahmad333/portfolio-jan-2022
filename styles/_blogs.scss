@@ -1,0 +1,118 @@
+.blogSection {
+    margin-top: 120px;
+
+    h1,
+    h2 {
+        font-size: 2.2em;
+        margin: 20px 0;
+        text-align: center;
+        color: $primary1;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 60px;
+        margin: 40px 80px;
+
+        .blogCard {
+            background-color: $fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 0px $tertiary;
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+                box-shadow: 0px 0px 5px 0px $secondary;
+            }
+
+            .blogImage {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            .blogTitle {
+                font-size: 1.5em;
+                font-weight: 600;
+                margin: 10px 0;
+                color: $primary1;
+            }
+
+            .blogDescription {
+                font-size: 1.2em;
+                margin: 10px 0;
+                height: 100px;
+                color: $primary;
+            }
+
+            .footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 5px 0;
+            }
+
+            .blogDate {
+                font-size: 1em;
+                color: $primary;
+            }
+
+
+            .blogLink {
+                // text-align: right;
+
+                a {
+                    color: $primary1;
+                    text-decoration: none;
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 968px) {
+    .blogSection {
+        margin-top: 90px;
+
+        h1,
+        h2 {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+
+        .blogs {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 10px;
+            margin: 20px 10px;
+
+            .blogCard {
+                padding: 10px 15px;
+                margin: 10px 0;
+
+                .blogTitle {
+                    font-size: 1.2em;
+                }
+
+                .blogDescription {
+                    font-size: 1em;
+                    height: 120px;
+                }
+
+                .blogDate {
+                    font-size: 0.8em;
+                }
+
+                .blogLink {
+                    a {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+
+        }
+    }
+}

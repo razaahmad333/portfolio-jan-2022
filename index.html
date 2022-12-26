@@ -19,10 +19,10 @@
         </div>
 
         <div class="middle">
-          <h1 class="outlined">AR</h1>
+          <h1 class="outlined"></h1>
         </div>
         <div class="right">
-          <a href="#">Blogs</a>
+          <a href="#blogs">Blogs</a>
           <a href="#">Shop</a>
         </div>
       </nav>
@@ -75,9 +75,29 @@
       </div>
     </div>
 
+    <div class="blogSection" id="blogs">
+      <h1>Blogs</h1>
+      <div class="blogs">
+      </div>
+    </div>
+
+
+    <div class="moreLink">
+      <a href="/blogsPage">
+        More Blogs
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+
     <div class="projectSection" id="projects">
       <h1>Projects</h1>
       <div class="projects"></div>
+    </div>
+    <div class="moreLink">
+      <a href="/projectsPage">
+        More Projects
+        <i class="fas fa-arrow-right"></i>
+      </a>
     </div>
 
     <div class="skillSection" id="skills">
@@ -121,6 +141,67 @@
     </div>
 
     <script>
+
+
+      const blogsContainer = document.querySelector(".blogs");
+
+      fetch("./data/blogs.json")
+        .then((res) => res.json())
+        .then((data) => {
+          data.reverse().slice(0, 4).forEach((blog) => {
+
+            let blogDiv = document.createElement("div");
+            blogDiv.classList.add("blogCard");
+
+
+            let blogTitle = document.createElement("div");
+            blogTitle.classList.add("blogTitle");
+            blogTitle.innerText = "(/> " + blog.title;
+            blogDiv.appendChild(blogTitle);
+
+            let blogDescription = document.createElement("div");
+            blogDescription.classList.add("blogDescription");
+            blogDescription.innerText = blog.description;
+            blogDiv.appendChild(blogDescription);
+
+            let footer = document.createElement("div");
+            footer.classList.add("footer");
+
+            let blogDate = document.createElement("div");
+            blogDate.classList.add("blogDate");
+            let calenderIcon = document.createElement("i");
+            calenderIcon.classList.add("fa");
+            calenderIcon.classList.add("fa-calendar");
+            blogDate.innerText = "  " + blog.date;
+            //blogDate.prepend(calenderIcon);
+            footer.appendChild(blogDate);
+
+            let blogLinkContainer = document.createElement("div");
+            blogLinkContainer.classList.add("blogLink");
+            let blogLink = document.createElement("a");
+
+            blogLink.href = blog.link;
+            blogLink.target = "_blank";
+            blogLink.innerText = "Read More on Hashnode ";
+
+            let blogLinkIcon = document.createElement("i");
+            blogLinkIcon.classList.add("fa");
+            blogLinkIcon.classList.add("fa-arrow-right");
+            blogLink.appendChild(blogLinkIcon);
+
+            blogLinkContainer.appendChild(blogLink);
+
+            footer.appendChild(blogLinkContainer);
+
+            blogDiv.appendChild(footer);
+            blogsContainer.appendChild(blogDiv);
+          });
+        });
+
+
+
+
+
       const skillNamesContainer = document.querySelector(".skillNames");
 
       fetch("./data/skills.json")
@@ -148,7 +229,7 @@
       fetch("./data/projects.json")
         .then((res) => res.json())
         .then((data) => {
-          data.forEach((project) => {
+          data.slice(0, 6).forEach((project) => {
             let singleProjectTemplate = `
         
         <div class="projectVideo">
@@ -193,10 +274,15 @@
             </div>
           </div>
         </div>
+
         `;
 
             projectsContainer.innerHTML += singleProjectTemplate;
           });
+        })
+        .then(() => {
+
+
         });
 
       // run this script after upper template is inserted kkk
