@@ -277,7 +277,10 @@
 
         `;
 
-            projectsContainer.innerHTML += singleProjectTemplate;
+            if (project.id === 101) {
+              projectsContainer.innerHTML += singleProjectTemplate;
+            }
+
           });
         })
         .then(() => {

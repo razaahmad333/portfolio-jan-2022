@@ -47,19 +47,21 @@
         .then((res) => res.json())
         .then((data) => {
           data.forEach((project) => {
+
+
             let singleProjectTemplate = `
         
         <div class="projectVideo">
           <div class="projectImage">
-            <img src=".${project.images[0]}" class="showIt firstOne "  alt="${project.name
+            <img src="${project.images[0]}" class="showIt firstOne "  alt="${project.name
               }" />
-            <img src=".${project.images[1]}" class="hideIt"  alt="${project.name
+            <img src="${project.images[1]}" class="hideIt"  alt="${project.name
               }" />
-            <img src=".${project.images[2]}" class="hideIt"  alt="${project.name
+            <img src="${project.images[2]}" class="hideIt"  alt="${project.name
               }" />
-            <img src=".${project.images[3]}" class="hideIt"  alt="${project.name
+            <img src="${project.images[3]}" class="hideIt"  alt="${project.name
               }" />
-            <img src=".${project.images[4]}" class="hideIt"  alt="${project.name
+            <img src="${project.images[4]}" class="hideIt"  alt="${project.name
               }" />
             </div>
           <div class="info">
@@ -93,7 +95,9 @@
         </div>
         `;
 
-            projectsContainer.innerHTML += singleProjectTemplate;
+            if (project.id === 101) {
+              projectsContainer.innerHTML += singleProjectTemplate;
+            }
           });
         });
 

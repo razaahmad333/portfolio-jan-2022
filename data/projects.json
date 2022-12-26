@@ -221,13 +221,13 @@
   },
   {
     "name": "Ads Managing Dashboard",
-    "id": 1,
+    "id": 101,
     "images": [
-      "./images/AdsManaging/img 69.jpg",
-      "./images/AdsManaging/img 70.jpg",
-      "./images/AdsManaging/img 71.jpg",
-      "./images/AdsManaging/img 72.jpg",
-      "./images/AdsManaging/img 73.jpg"
+      "https://res.cloudinary.com/dltcimvog/image/upload/v1672036438/AdsManaging/img_73_zqsrxj.jpg",
+      "https://res.cloudinary.com/dltcimvog/image/upload/v1672036438/AdsManaging/img_71_acnhjf.jpg",
+      "https://res.cloudinary.com/dltcimvog/image/upload/v1672036438/AdsManaging/img_70_khz6pi.jpg",
+      "https://res.cloudinary.com/dltcimvog/image/upload/v1672036438/AdsManaging/img_69_ilkudc.jpg",
+      "https://res.cloudinary.com/dltcimvog/image/upload/v1672036438/AdsManaging/img_72_rqvsya.jpg"
     ],
     "videoURL": "https://youtu.be/Qx1EBa3sH3U",
     "techs": [
