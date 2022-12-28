@@ -188,10 +188,10 @@
       const blogsContainer = document.querySelector(".blogs");
       const base_api_url = "https://quotesman11-default-rtdb.firebaseio.com";
 
-      fetch(base_api_url + "/blogs.json?limitToLast=4")
+      fetch(base_api_url + "/blogs.json")
         .then((res) => res.json())
         .then((data) => {
-          data.reverse().forEach((blog) => {
+          data.reverse().slice(0, 4).forEach((blog) => {
 
             let blogDiv = document.createElement("div");
             blogDiv.classList.add("blogCard");
