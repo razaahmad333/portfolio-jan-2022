@@ -12,7 +12,7 @@
 
   <body>
     <div class="mainHeadSection">
-      <nav>
+      <nav id="largeScreen">
         <div class="left">
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
@@ -26,6 +26,48 @@
           <a href="#">Shop</a>
         </div>
       </nav>
+
+      <nav id="smallScreen">
+        <div class="head">
+          <h1 class="outlined">
+            <a href="./index.html">
+              Ahmad Raza
+            </a>
+          </h1>
+          <i class="fas fa-bars" id="menu"></i>
+        </div>
+        <div class="menu">
+          <hr>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#blogs">Blogs</a>
+          <a href="#">Shop</a>
+          <div class="contactLinks">
+            <a href="https://www.linkedin.com/in/ahmadrazakhan946/" title="LinkedIn">
+              <i class="fab fa-linkedin "></i>
+            </a>
+            <a href="https://github.com/razaahmad333" title="Github">
+              <i class="fab fa-github "></i>
+            </a>
+            <a href="https://twitter.com/ahmadraza946_" title="Twitter">
+              <i class="fab fa-twitter "></i>
+            </a>
+            <a href="https://ahmadrazakhan946.hashnode.dev" title="Hashnode Blogs">
+              <i class="fa fa-blog "></i>
+            </a>
+            <a href="https://leetcode.com/razaahmad333" title="Leetcode">
+              <i class="fa fa-code "></i>
+            </a>
+
+            <a href="https://www.instagram.com/ahmadrazakhan946" title="Instagram">
+              <i class="fab fa-instagram "></i>
+            </a>
+          </div>
+
+        </div>
+      </nav>
+
+
 
       <div class="container">
         <div class="me">
@@ -83,7 +125,7 @@
 
 
     <div class="moreLink">
-      <a href="/blogsPage">
+      <a href="./blogsPage/">
         More Blogs
         <i class="fas fa-arrow-right"></i>
       </a>
@@ -94,7 +136,7 @@
       <div class="projects"></div>
     </div>
     <div class="moreLink">
-      <a href="/projectsPage">
+      <a href="./projectsPage">
         More Projects
         <i class="fas fa-arrow-right"></i>
       </a>
@@ -144,11 +186,12 @@
 
 
       const blogsContainer = document.querySelector(".blogs");
+      const base_api_url = "https://quotesman11-default-rtdb.firebaseio.com";
 
-      fetch("./data/blogs.json")
+      fetch(base_api_url + "/blogs.json?limitToLast=4")
         .then((res) => res.json())
         .then((data) => {
-          data.reverse().slice(0, 4).forEach((blog) => {
+          data.reverse().forEach((blog) => {
 
             let blogDiv = document.createElement("div");
             blogDiv.classList.add("blogCard");
@@ -204,7 +247,7 @@
 
       const skillNamesContainer = document.querySelector(".skillNames");
 
-      fetch("./data/skills.json")
+      fetch(base_api_url + "/skills.json")
         .then((res) => res.json())
         .then((data) => {
           data.forEach((skill) => {
@@ -226,7 +269,7 @@
 
       const projectsContainer = document.querySelector(".projects");
 
-      fetch("./data/projects.json")
+      fetch(base_api_url + "/projects.json")
         .then((res) => res.json())
         .then((data) => {
           data.slice(0, 6).forEach((project) => {

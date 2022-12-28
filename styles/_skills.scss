@@ -1,6 +1,7 @@
 .skillSection {
   padding: 20px 40px;
   margin-bottom: 10px;
+
   h1,
   h2 {
     text-align: center;
@@ -17,6 +18,7 @@
     text-align: center;
     width: 80%;
     margin: 40px auto;
+
     i {
       font-size: 6em;
       color: $primary1;
@@ -27,6 +29,7 @@
       //   text-shadow: 0px 0px 0px $red;
       // }
     }
+
     .name {
       font-size: 1.5em;
       margin: 20px 0;
@@ -40,6 +43,7 @@
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 20px;
     text-align: center;
+
     i {
       font-size: 4em;
       color: $primary1;
@@ -51,6 +55,7 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-gap: 20px;
+
     div {
       text-align: center;
       border-top-left-radius: 15px;
@@ -83,7 +88,9 @@
 
 @media (max-width: 968px) {
   .skillSection {
+    margin-top: 100px;
     padding: 0px 10px;
+
     h1,
     h2 {
       margin: 0;
@@ -93,6 +100,7 @@
     .core {
       grid-template-columns: repeat(1, 1fr);
       width: 90%;
+
       i {
         font-size: 8em;
       }
@@ -100,6 +108,7 @@
 
     .skills {
       grid-template-columns: repeat(4, 1fr);
+
       i {
         font-size: 3em;
         color: $primary1;
@@ -109,6 +118,7 @@
     .skillNames {
       margin: 20px 0;
       grid-template-columns: repeat(3, 1fr);
+
       div {
         .nameSkill {
           font-size: 0.85em;

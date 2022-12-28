@@ -1,3 +1,25 @@
+#largeScreen {
+  display: flex;
+}
+
+#smallScreen {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  #smallScreen {
+    display: block;
+  }
+
+  #largeScreen {
+    display: none;
+  }
+}
+
+
+
+
 nav {
   width: 80%;
   margin: 20px auto;
@@ -28,6 +50,68 @@ nav {
 
 @media (max-width: 768px) {
   nav {
+    // margin: 10px;
+    border-radius: 4px;
+    // border: 1px solid $tertiary;
+    box-shadow: 0 0 4px 0 $tertiary;
+    display: block;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 97%;
+    margin: 6px;
+    background: white;
+    z-index: 1000;
+
+    .outlined a {
+      color: $primary1;
+      box-shadow: none;
+      font-size: 1em;
+      padding: 0px;
+
+    }
+
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 0px;
+
+      #menu {
+        color: $primary1;
+      }
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      // align-items: center;
+      height: 30vh;
+      background: white;
+
+      a {
+        padding: 5px 0;
+        font-size: 1.2em;
+        opacity: 0.9;
+
+        &:hover {
+          opacity: 1;
+          box-shadow: none
+        }
+      }
+
+      hr {
+        border: 1px solid $tertiary;
+      }
+
+      .contactLinks {
+        margin: 0px;
+      }
+
+    }
+
     .left {
       display: flex;
       justify-content: space-evenly;

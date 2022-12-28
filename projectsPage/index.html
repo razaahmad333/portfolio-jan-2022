@@ -12,23 +12,64 @@
 
   <body>
     <div class="mainHeadSection">
-      <nav>
+      <nav id="largeScreen">
         <div class="left">
-          <a href="/projectsPage">Projects</a>
-          <a href="/skillsPage">Skills</a>
+          <a href="../projectsPage">Projects</a>
+          <a href="../skillsPage">Skills</a>
         </div>
 
         <div class="middle">
           <h1 class="outlined">
-            <a href="/">
+            <a href="../index.html">
               Ahmad Raza
             </a>
           </h1>
         </div>
         <div class="right">
-          <a href="/blogsPage/">Blogs</a>
+          <a href="../blogsPage/">Blogs</a>
           <a href="#">Shop</a>
         </div>
+      </nav>
+
+      <nav id="smallScreen">
+        <div class="head">
+          <h1 class="outlined">
+            <a href="../index.html">
+              Ahmad Raza
+            </a>
+          </h1>
+          <i class="fas fa-bars" id="menu"></i>
+        </div>
+        <div class="menu">
+          <hr>
+          <a href="../projectsPage">Projects</a>
+          <a href="../skillsPage">Skills</a>
+          <a href="../blogsPage">Blogs</a>
+          <a href="#">Shop</a>
+          <div class="contactLinks">
+            <a href="https://www.linkedin.com/in/ahmadrazakhan946/" title="LinkedIn">
+              <i class="fab fa-linkedin "></i>
+            </a>
+            <a href="https://github.com/razaahmad333" title="Github">
+              <i class="fab fa-github "></i>
+            </a>
+            <a href="https://twitter.com/ahmadraza946_" title="Twitter">
+              <i class="fab fa-twitter "></i>
+            </a>
+            <a href="https://ahmadrazakhan946.hashnode.dev" title="Hashnode Blogs">
+              <i class="fa fa-blog "></i>
+            </a>
+            <a href="https://leetcode.com/razaahmad333" title="Leetcode">
+              <i class="fa fa-code "></i>
+            </a>
+
+            <a href="https://www.instagram.com/ahmadrazakhan946" title="Instagram">
+              <i class="fab fa-instagram "></i>
+            </a>
+          </div>
+
+        </div>
+
       </nav>
 
     </div>
@@ -42,8 +83,9 @@
     <script>
 
       const projectsContainer = document.querySelector(".projects");
+      const projects_api_url = "https://quotesman11-default-rtdb.firebaseio.com/projects.json";
 
-      fetch("../data/projects.json")
+      fetch(projects_api_url)
         .then((res) => res.json())
         .then((data) => {
           data.forEach((project) => {
