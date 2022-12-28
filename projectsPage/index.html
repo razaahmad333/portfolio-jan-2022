@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="https://kit.fontawesome.com/0852c9b43a.js" crossorigin="anonymous"></script>
+    <title>Ahmad Raza</title>
+  </head>
+
+  <body>
+    <div class="mainHeadSection">
+      <nav id="largeScreen">
+        <div class="left">
+          <a href="../projectsPage">Projects</a>
+          <a href="../skillsPage">Skills</a>
+        </div>
+
+        <div class="middle">
+          <h1 class="outlined">
+            <a href="../index.html">
+              Ahmad Raza
+            </a>
+          </h1>
+        </div>
+        <div class="right">
+          <a href="../blogsPage/">Blogs</a>
+          <a href="#">Shop</a>
+        </div>
+      </nav>
+
+      <nav id="smallScreen">
+        <div class="head">
+          <h1 class="outlined">
+            <a href="../index.html">
+              Ahmad Raza
+            </a>
+          </h1>
+          <i class="fas fa-bars" id="menu"></i>
+        </div>
+        <div class="menu">
+          <hr>
+          <a href="../projectsPage">Projects</a>
+          <a href="../skillsPage">Skills</a>
+          <a href="../blogsPage">Blogs</a>
+          <a href="#">Shop</a>
+          <div class="contactLinks">
+            <a href="https://www.linkedin.com/in/ahmadrazakhan946/" title="LinkedIn">
+              <i class="fab fa-linkedin "></i>
+            </a>
+            <a href="https://github.com/razaahmad333" title="Github">
+              <i class="fab fa-github "></i>
+            </a>
+            <a href="https://twitter.com/ahmadraza946_" title="Twitter">
+              <i class="fab fa-twitter "></i>
+            </a>
+            <a href="https://ahmadrazakhan946.hashnode.dev" title="Hashnode Blogs">
+              <i class="fa fa-blog "></i>
+            </a>
+            <a href="https://leetcode.com/razaahmad333" title="Leetcode">
+              <i class="fa fa-code "></i>
+            </a>
+
+            <a href="https://www.instagram.com/ahmadrazakhan946" title="Instagram">
+              <i class="fab fa-instagram "></i>
+            </a>
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+    <div class="projectSection" id="projects">
+      <h1>Projects</h1>
+      <div class="projects"></div>
+    </div>
+
+
+    <script>
+
+      const projectsContainer = document.querySelector(".projects");
+      const projects_api_url = "https://quotesman11-default-rtdb.firebaseio.com/projects.json";
+
+      fetch(projects_api_url)
+        .then((res) => res.json())
+        .then((data) => {
+          data.forEach((project) => {
+            let singleProjectTemplate = `
+        
+        <div class="projectVideo">
+          <div class="projectImage">
+            <img src=".${project.images[0]}" class="showIt firstOne "  alt="${project.name
+              }" />
+            <img src=".${project.images[1]}" class="hideIt"  alt="${project.name
+              }" />
+            <img src=".${project.images[2]}" class="hideIt"  alt="${project.name
+              }" />
+            <img src=".${project.images[3]}" class="hideIt"  alt="${project.name
+              }" />
+            <img src=".${project.images[4]}" class="hideIt"  alt="${project.name
+              }" />
+            </div>
+          <div class="info">
+            <h2>${project.name}</h2>
+            <p>
+              ${project.description}
+              </p>
+            <div class="techs">
+              ${project.techs
+                .map((tech) => `<span>${tech}</span>`)
+                .join("  &nbsp; &nbsp; ")}
+            </div>
+            <div class="projectLinks">
+              <a href="${project.live}" target="_blank" >
+                <i class="fab fas fa-wifi"></i>
+                
+                Live
+              </a>
+              <a href="${project.github}" target="_blank" >
+                <i class="fab fab fa-github"></i>
+
+                Code
+              </a>
+              <a href="${project.videoURL}" target="_blank" >
+                <i class="fab fas fa-play"></i>
+
+                Demo video
+              </a>
+            </div>
+          </div>
+        </div>
+        `;
+
+            projectsContainer.innerHTML += singleProjectTemplate;
+          });
+        });
+
+      // run this script after upper template is inserted kkk
+    </script>
+
+    <script src="../index.js" defer></script>
+  </body>
+
+</html>

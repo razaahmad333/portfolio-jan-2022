@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/style.css" />
+        <script src="https://kit.fontawesome.com/0852c9b43a.js" crossorigin="anonymous"></script>
+        <title>Ahmad Raza</title>
+    </head>
+
+    <body>
+        <div class="mainHeadSection">
+            <nav id="largeScreen">
+                <div class="left">
+                    <a href="../projectsPage">Projects</a>
+                    <a href="../skillsPage">Skills</a>
+                </div>
+
+                <div class="middle">
+                    <h1 class="outlined">
+                        <a href="../index.html">
+                            Ahmad Raza
+                        </a>
+                    </h1>
+                </div>
+                <div class="right">
+                    <a href="#">Blogs</a>
+                    <a href="#">Shop</a>
+                </div>
+            </nav>
+
+            <nav id="smallScreen">
+                <div class="head">
+                    <h1 class="outlined">
+                        <a href="../index.html">
+                            Ahmad Raza
+                        </a>
+                    </h1>
+                    <i class="fas fa-bars" id="menu"></i>
+                </div>
+                <div class="menu">
+                    <hr>
+                    <a href="../projectsPage">Projects</a>
+                    <a href="../skillsPage">Skills</a>
+                    <a href="../blogsPage">Blogs</a>
+                    <a href="#">Shop</a>
+                    <div class="contactLinks">
+                        <a href="https://www.linkedin.com/in/ahmadrazakhan946/" title="LinkedIn">
+                            <i class="fab fa-linkedin "></i>
+                        </a>
+                        <a href="https://github.com/razaahmad333" title="Github">
+                            <i class="fab fa-github "></i>
+                        </a>
+                        <a href="https://twitter.com/ahmadraza946_" title="Twitter">
+                            <i class="fab fa-twitter "></i>
+                        </a>
+                        <a href="https://ahmadrazakhan946.hashnode.dev" title="Hashnode Blogs">
+                            <i class="fa fa-blog "></i>
+                        </a>
+                        <a href="https://leetcode.com/razaahmad333" title="Leetcode">
+                            <i class="fa fa-code "></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/ahmadrazakhan946" title="Instagram">
+                            <i class="fab fa-instagram "></i>
+                        </a>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+        <div class="blogSection" id="blogs">
+            <h1>Blogs</h1>
+            <div class="blogs">
+            </div>
+        </div>
+
+        <script>
+            const blogsContainer = document.querySelector(".blogs");
+            const blogs_api_url = "https://quotesman11-default-rtdb.firebaseio.com/blogs.json";
+
+            fetch(blogs_api_url)
+                .then((res) => res.json())
+                .then((data) => {
+                    data.reverse().forEach((blog) => {
+
+                        let blogDiv = document.createElement("div");
+                        blogDiv.classList.add("blogCard");
+
+
+                        let blogTitle = document.createElement("div");
+                        blogTitle.classList.add("blogTitle");
+                        blogTitle.innerText = "(/> " + blog.title;
+                        blogDiv.appendChild(blogTitle);
+
+                        let blogDescription = document.createElement("div");
+                        blogDescription.classList.add("blogDescription");
+                        blogDescription.innerText = blog.description;
+                        blogDiv.appendChild(blogDescription);
+
+                        let footer = document.createElement("div");
+                        footer.classList.add("footer");
+
+                        let blogDate = document.createElement("div");
+                        blogDate.classList.add("blogDate");
+                        let calenderIcon = document.createElement("i");
+                        calenderIcon.classList.add("fa");
+                        calenderIcon.classList.add("fa-calendar");
+                        blogDate.innerText = "  " + blog.date;
+                        //blogDate.prepend(calenderIcon);
+                        footer.appendChild(blogDate);
+
+                        let blogLinkContainer = document.createElement("div");
+                        blogLinkContainer.classList.add("blogLink");
+                        let blogLink = document.createElement("a");
+
+                        blogLink.href = blog.link;
+                        blogLink.target = "_blank";
+                        blogLink.innerText = "Read More on Hashnode ";
+
+                        let blogLinkIcon = document.createElement("i");
+                        blogLinkIcon.classList.add("fa");
+                        blogLinkIcon.classList.add("fa-arrow-right");
+                        blogLink.appendChild(blogLinkIcon);
+
+                        blogLinkContainer.appendChild(blogLink);
+
+                        footer.appendChild(blogLinkContainer);
+
+                        blogDiv.appendChild(footer);
+                        blogsContainer.appendChild(blogDiv);
+                    });
+                });
+
+
+
+
+      // run this script after upper template is inserted kkk
+        </script>
+
+        <script src="../index.js" defer></script>
+    </body>
+
+</html>

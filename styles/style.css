@@ -16,8 +16,37 @@
 }
 
 .outlined {
-  color: white;
-  text-shadow: 0px 2px 2px #ff9292;
+  color: #fd5f5f;
+}
+
+.moreLink {
+  text-align: center;
+}
+
+.moreLink a {
+  color: #fd5f5f;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#largeScreen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#smallScreen {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #smallScreen {
+    display: block;
+  }
+  #largeScreen {
+    display: none;
+  }
 }
 
 nav {
@@ -51,11 +80,76 @@ nav a:hover {
 }
 
 nav .middle {
-  display: none;
   font-size: 2.2em;
 }
 
 @media (max-width: 768px) {
+  nav {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 4px 0 #ffdcdc;
+            box-shadow: 0 0 4px 0 #ffdcdc;
+    display: block;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 97%;
+    margin: 6px;
+    background: white;
+    z-index: 1000;
+  }
+  nav .outlined a {
+    color: #fd5f5f;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font-size: 1em;
+    padding: 0px;
+  }
+  nav .head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    padding: 0 0px;
+  }
+  nav .head #menu {
+    color: #fd5f5f;
+  }
+  nav .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 30vh;
+    background: white;
+  }
+  nav .menu a {
+    padding: 5px 0;
+    font-size: 1.2em;
+    opacity: 0.9;
+  }
+  nav .menu a:hover {
+    opacity: 1;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  nav .menu hr {
+    border: 1px solid #ffdcdc;
+  }
+  nav .menu .contactLinks {
+    margin: 0px;
+  }
   nav .left {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -93,35 +187,6 @@ nav .middle {
   color: #ff9292;
 }
 
-.container .contactLinks {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 20px 0;
-}
-
-.container .contactLinks a {
-  display: block;
-  margin: 0 10px;
-  text-decoration: none;
-  font-size: 1.5rem;
-  padding: 20px;
-  font-size: 2em;
-}
-
-.container .contactLinks a i {
-  color: #fd5f5f;
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
-}
-
-.container .contactLinks a i:hover {
-  color: #ff9292;
-}
-
 .container .action {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,6 +221,35 @@ nav .middle {
 .container .action a:hover {
   -webkit-box-shadow: 0px 0px 5px #ffb4b4;
           box-shadow: 0px 0px 5px #ffb4b4;
+}
+
+.contactLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+}
+
+.contactLinks a {
+  display: block;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 20px;
+  font-size: 2em;
+}
+
+.contactLinks a i {
+  color: #fd5f5f;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.contactLinks a i:hover {
+  color: #ff9292;
 }
 
 .bgImage {
@@ -200,11 +294,11 @@ nav .middle {
     padding-top: 220px;
   }
   .container .me {
-    top: 10px;
+    top: 90px;
   }
   .container .me img {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
   }
   .container .name {
     font-size: 2.8em;
@@ -220,6 +314,123 @@ nav .middle {
     margin: 0 10px;
     font-size: 1em;
     padding: 10px;
+  }
+}
+
+.blogSection {
+  margin-top: 120px;
+}
+
+.blogSection h1,
+.blogSection h2 {
+  font-size: 2.2em;
+  margin: 20px 0;
+  text-align: center;
+  color: #fd5f5f;
+}
+
+.blogSection .blogs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 60px;
+  margin: 40px 80px;
+}
+
+.blogSection .blogs .blogCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 0px #ffdcdc;
+          box-shadow: 0px 0px 5px 0px #ffdcdc;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.blogSection .blogs .blogCard:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px #ffb4b4;
+          box-shadow: 0px 0px 5px 0px #ffb4b4;
+}
+
+.blogSection .blogs .blogCard .blogImage {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.blogSection .blogs .blogCard .blogTitle {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #fd5f5f;
+}
+
+.blogSection .blogs .blogCard .blogDescription {
+  font-size: 1.2em;
+  margin: 10px 0;
+  height: 100px;
+  color: #ff9292;
+}
+
+.blogSection .blogs .blogCard .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 0;
+}
+
+.blogSection .blogs .blogCard .blogDate {
+  font-size: 1em;
+  color: #ff9292;
+}
+
+.blogSection .blogs .blogCard .blogLink a {
+  color: #fd5f5f;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 968px) {
+  .blogSection {
+    margin-top: 90px;
+  }
+  .blogSection h1,
+  .blogSection h2 {
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  .blogSection .blogs {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    margin: 20px 10px;
+  }
+  .blogSection .blogs .blogCard {
+    padding: 10px 15px;
+    margin: 10px 0;
+  }
+  .blogSection .blogs .blogCard .blogTitle {
+    font-size: 1.2em;
+  }
+  .blogSection .blogs .blogCard .blogDescription {
+    font-size: 1em;
+    height: 120px;
+  }
+  .blogSection .blogs .blogCard .blogDate {
+    font-size: 0.8em;
+  }
+  .blogSection .blogs .blogCard .blogLink a {
+    font-size: 0.8em;
   }
 }
 
@@ -611,6 +822,7 @@ nav .middle {
 
 @media (max-width: 968px) {
   .skillSection {
+    margin-top: 100px;
     padding: 0px 10px;
   }
   .skillSection h1,

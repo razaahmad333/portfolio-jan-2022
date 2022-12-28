@@ -1,3 +1,6 @@
+document.documentElement.style.scrollBehavior = "smooth";
+
+
 setTimeout(function () {
   let projectVideos = Array.from(document.querySelectorAll(".projectVideo"));
   let stateOfSlideShow = Array(projectVideos.length).fill(0);
@@ -116,3 +119,33 @@ function changeImages(imagesS, soss, i) {
     soss[i] = 0;
   }
 }
+
+
+const menuIcon = document.querySelector("nav i");
+const menu = document.querySelector("#smallScreen .menu");
+menu.style.display = "none";
+
+menuIcon.addEventListener("click", () => {
+  if (menu.style.display === "flex") {
+    menu.style.display = "none";
+    menuIcon.classList.remove("fa-times");
+    menuIcon.classList.add("fa-bars");
+    return;
+  }
+
+  menu.style.display = "flex";
+  menuIcon.classList.remove("fa-bars");
+  menuIcon.classList.add("fa-times");
+});
+
+const menuItems = document.querySelectorAll("#smallScreen .menu a");
+menuItems.forEach((menuItem) => {
+  menuItem.addEventListener("click", () => {
+    menu.style.display = "none";
+    menuIcon.classList.remove("fa-times");
+    menuIcon.classList.add("fa-bars");
+    setTimeout(() => {
+      window.scrollBy(0, -100);
+    }, 1000);
+  });
+});
