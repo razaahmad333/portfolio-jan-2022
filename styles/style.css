@@ -86,8 +86,8 @@ nav .middle {
 @media (max-width: 768px) {
   nav {
     border-radius: 4px;
-    -webkit-box-shadow: 0 0 4px 0 #ffdcdc;
-            box-shadow: 0 0 4px 0 #ffdcdc;
+    -webkit-box-shadow: 0 0 4px 0 #fd5f5f;
+            box-shadow: 0 0 4px 0 #fd5f5f;
     display: block;
     position: fixed;
     top: 0;
