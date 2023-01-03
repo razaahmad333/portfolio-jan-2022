@@ -3,8 +3,8 @@
 
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" type="image/png" href="../images/a-logo.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../styles/style.css" />
         <script src="https://kit.fontawesome.com/0852c9b43a.js" crossorigin="anonymous"></script>
@@ -74,70 +74,18 @@
             </nav>
         </div>
 
-        <div class="skillSection" id="skills">
-            <h1>Skills</h1>
-            <div class="core">
-                <div class="cr">
-                    <i class="fas fa-crop-alt"> </i>
-                    <div class="name">FrontEnd</div>
-                </div>
-
-                <div class="cr">
-                    <i class="fas fas fa-server"> </i>
-                    <div class="name">Server</div>
-                </div>
-
-                <div class="cr">
-                    <i class="fas fas fa-database"> </i>
-                    <div class="name">Database</div>
-                </div>
-            </div>
-            <h2>Techs, I have worked on!</h2>
-            <div class="skillNames"></div>
-            <div class="skills">
-                <i class="fab fab fa-html5" title="HTML"> </i>
-                <i class="fab fab fa-css3-alt" title="CSS"> </i>
-                <i class="fab fab fa-js-square" title="Javascript"> </i>
-                <!-- <i class="fab fab fa-ts-sq"> </i> -->
-                <i class="fab fab fa-react" title="React"> </i>
-
-                <i class="fab fab fa-node-js" title="NodeJs"> </i>
-                <i class="fab fab fa-python" title="Python"> </i>
-                <i class="fab fab fa-npm" title="Node Package Manager"> </i>
-                <i class="fab fab fa-git" title="Git"> </i>
-                <i class="fab fab fa-github" title="Github"> </i>
-                <i class="fab fab fa-sass" title="SASS"> </i>
-                <i class="fab fab fa-bootstrap" title="Bootstrap"> </i>
-                <i class="fab fab fa-figma" title="Figma"> </i>
-            </div>
+        <div>
+            <a target="_blank"
+                href="https://www.amazon.in/deal/d03f0a68?_encoding=UTF8&linkCode=r02&tag=ahmadraza94-21&linkId=e6b5174bd7b38a667d174e543db5db0e&ref_=ihub_rc_td_c_deals-promotions_d03f0a68">Winter
+                Appliances: Room Heaters</a>
         </div>
 
-        <script>
-            const skillNamesContainer = document.querySelector(".skillNames");
-            const skills_api_url = "https://quotesman11-default-rtdb.firebaseio.com/skills.json";
-            fetch(skills_api_url)
-                .then((res) => res.json())
-                .then((data) => {
-                    data.forEach((skill) => {
-                        let skillNameDiv = document.createElement("div");
-
-                        let nameSkill = document.createElement("span");
-                        nameSkill.classList.add("nameSkill");
-                        nameSkill.innerText = skill.name;
-                        skillNameDiv.appendChild(nameSkill);
-
-                        let level = document.createElement("span");
-                        level.classList.add("level");
-                        level.style.width = skill.level;
-                        skillNameDiv.setAttribute("title", skill.level);
-                        skillNameDiv.appendChild(level);
-                        skillNamesContainer.appendChild(skillNameDiv);
-                    });
-                });
-
-      // run this script after upper template is inserted kkk
+        <script type="text/javascript" language="javascript">
+            var aax_size = '300x250';
+            var aax_pubname = 'ahmadraza94-21';
+            var aax_src = '302';
         </script>
-
+        <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
         <script src="../index.js" defer></script>
     </body>
 
