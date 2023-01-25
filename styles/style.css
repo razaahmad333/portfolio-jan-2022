@@ -329,6 +329,18 @@ nav .middle {
   color: #fd5f5f;
 }
 
+.blogSection h1 a,
+.blogSection h2 a {
+  color: #fd5f5f;
+  text-decoration: none;
+}
+
+.blogSection h1 a:hover,
+.blogSection h2 a:hover {
+  text-decoration: underline;
+  opacity: 0.75;
+}
+
 .blogSection .blogs {
   display: -ms-grid;
   display: grid;
@@ -444,6 +456,18 @@ nav .middle {
   margin: 20px 0;
   text-align: center;
   color: #fd5f5f;
+}
+
+.projectSection h1 a,
+.projectSection h2 a {
+  color: #fd5f5f;
+  text-decoration: none;
+}
+
+.projectSection h1 a:hover,
+.projectSection h2 a:hover {
+  text-decoration: underline;
+  opacity: 0.75;
 }
 
 .projectSection .projects {
@@ -747,6 +771,18 @@ nav .middle {
   font-size: 2.2em;
   margin: 20px 0;
   color: #fd5f5f;
+}
+
+.skillSection h1 a,
+.skillSection h2 a {
+  color: #fd5f5f;
+  text-decoration: none;
+}
+
+.skillSection h1 a:hover,
+.skillSection h2 a:hover {
+  text-decoration: underline;
+  opacity: 0.75;
 }
 
 .skillSection .core {

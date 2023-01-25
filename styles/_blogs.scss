@@ -7,6 +7,17 @@
         margin: 20px 0;
         text-align: center;
         color: $primary1;
+
+        a {
+            color: $primary1;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+                opacity: 0.75;
+            }
+        }
+
     }
 
     .blogs {
