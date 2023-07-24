@@ -7,8 +7,7 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .filled {
@@ -22,7 +21,6 @@
 .moreLink {
   text-align: center;
 }
-
 .moreLink a {
   color: #fd5f5f;
   text-decoration: none;
@@ -31,8 +29,6 @@
 }
 
 #largeScreen {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -48,37 +44,26 @@
     display: none;
   }
 }
-
 nav {
   width: 80%;
   margin: 20px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
-
 nav a {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
   padding: 10px 20px;
   border-radius: 25px;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   color: #fd5f5f;
   font-size: 1.5em;
 }
-
 nav a:hover {
-  -webkit-box-shadow: 0px 0px 3px 0px #ffdcdc;
-          box-shadow: 0px 0px 3px 0px #ffdcdc;
+  box-shadow: 0px 0px 3px 0px #ffdcdc;
 }
-
 nav .middle {
   font-size: 2.2em;
 }
@@ -86,8 +71,7 @@ nav .middle {
 @media (max-width: 768px) {
   nav {
     border-radius: 4px;
-    -webkit-box-shadow: 0 0 4px 0 #fd5f5f;
-            box-shadow: 0 0 4px 0 #fd5f5f;
+    box-shadow: 0 0 3px 0 #ff9292;
     display: block;
     position: fixed;
     top: 0;
@@ -99,21 +83,14 @@ nav .middle {
   }
   nav .outlined a {
     color: #fd5f5f;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     font-size: 1em;
     padding: 0px;
   }
   nav .head {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 0 0px;
   }
@@ -121,16 +98,9 @@ nav .middle {
     color: #fd5f5f;
   }
   nav .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-evenly;
     height: 30vh;
     background: white;
   }
@@ -141,8 +111,7 @@ nav .middle {
   }
   nav .menu a:hover {
     opacity: 1;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   nav .menu hr {
     border: 1px solid #ffdcdc;
@@ -151,12 +120,8 @@ nav .middle {
     margin: 0px;
   }
   nav .left {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
   }
   nav .left a {
     padding: 5px 50px;
@@ -168,35 +133,26 @@ nav .middle {
     display: none;
   }
 }
-
 .container {
   position: relative;
 }
-
 .container .name {
   color: #fd5f5f;
   margin-top: 40px;
   font-size: 8em;
   text-align: center;
 }
-
 .container .designation {
   font-size: 2em;
   margin: 20px 0;
   text-align: center;
   color: #ff9292;
 }
-
 .container .action {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 20px 0;
 }
-
 .container .action a {
   display: block;
   margin: 0 40px;
@@ -205,34 +161,24 @@ nav .middle {
   font-size: 1.5rem;
   padding: 20px;
   color: #fd5f5f;
-  -webkit-box-shadow: 0px 0px 5px #ffdcdc;
-          box-shadow: 0px 0px 5px #ffdcdc;
-  -webkit-transition: all 0.7s ease-in-out;
+  box-shadow: 0px 0px 5px #ffdcdc;
   transition: all 0.7s ease-in-out;
 }
-
 .container .action a i {
   font-size: 1em;
   padding-right: 10px;
   color: #fd5f5f;
   text-shadow: none;
 }
-
 .container .action a:hover {
-  -webkit-box-shadow: 0px 0px 5px #ffb4b4;
-          box-shadow: 0px 0px 5px #ffb4b4;
+  box-shadow: 0px 0px 5px #ffb4b4;
 }
 
 .contactLinks {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 20px 0;
 }
-
 .contactLinks a {
   display: block;
   margin: 0 10px;
@@ -241,13 +187,10 @@ nav .middle {
   padding: 20px;
   font-size: 2em;
 }
-
 .contactLinks a i {
   color: #fd5f5f;
-  -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
 }
-
 .contactLinks a i:hover {
   color: #ff9292;
 }
@@ -260,7 +203,6 @@ nav .middle {
   width: 100vw;
   height: 100vh;
 }
-
 .bgImage img {
   width: 100%;
   height: 100%;
@@ -280,7 +222,6 @@ nav .middle {
   text-align: center;
   z-index: -1;
 }
-
 .container .me img {
   border: 5px solid white;
   width: 250px;
@@ -316,11 +257,9 @@ nav .middle {
     padding: 10px;
   }
 }
-
 .blogSection {
   margin-top: 120px;
 }
-
 .blogSection h1,
 .blogSection h2 {
   font-size: 2.2em;
@@ -328,43 +267,32 @@ nav .middle {
   text-align: center;
   color: #fd5f5f;
 }
-
 .blogSection h1 a,
 .blogSection h2 a {
   color: #fd5f5f;
   text-decoration: none;
 }
-
 .blogSection h1 a:hover,
 .blogSection h2 a:hover {
   text-decoration: underline;
   opacity: 0.75;
 }
-
 .blogSection .blogs {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 60px;
   margin: 40px 80px;
 }
-
 .blogSection .blogs .blogCard {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 5px 0px #ffdcdc;
-          box-shadow: 0px 0px 5px 0px #ffdcdc;
-  -webkit-transition: all 0.5s ease-in-out;
+  box-shadow: 0px 0px 5px 0px #ffdcdc;
   transition: all 0.5s ease-in-out;
 }
-
 .blogSection .blogs .blogCard:hover {
-  -webkit-box-shadow: 0px 0px 5px 0px #ffb4b4;
-          box-shadow: 0px 0px 5px 0px #ffb4b4;
+  box-shadow: 0px 0px 5px 0px #ffb4b4;
 }
-
 .blogSection .blogs .blogCard .blogImage {
   width: 100%;
   height: 200px;
@@ -372,39 +300,28 @@ nav .middle {
      object-fit: cover;
   border-radius: 10px;
 }
-
 .blogSection .blogs .blogCard .blogTitle {
   font-size: 1.5em;
   font-weight: 600;
   margin: 10px 0;
   color: #fd5f5f;
 }
-
 .blogSection .blogs .blogCard .blogDescription {
   font-size: 1.2em;
   margin: 10px 0;
   height: 100px;
   color: #ff9292;
 }
-
 .blogSection .blogs .blogCard .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 5px 0;
 }
-
 .blogSection .blogs .blogCard .blogDate {
   font-size: 1em;
   color: #ff9292;
 }
-
 .blogSection .blogs .blogCard .blogLink a {
   color: #fd5f5f;
   text-decoration: none;
@@ -422,8 +339,7 @@ nav .middle {
     margin: 20px 0;
   }
   .blogSection .blogs {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
     margin: 20px 10px;
   }
@@ -445,11 +361,9 @@ nav .middle {
     font-size: 0.8em;
   }
 }
-
 .projectSection {
   margin-top: 120px;
 }
-
 .projectSection h1,
 .projectSection h2 {
   font-size: 2.2em;
@@ -457,46 +371,34 @@ nav .middle {
   text-align: center;
   color: #fd5f5f;
 }
-
 .projectSection h1 a,
 .projectSection h2 a {
   color: #fd5f5f;
   text-decoration: none;
 }
-
 .projectSection h1 a:hover,
 .projectSection h2 a:hover {
   text-decoration: underline;
   opacity: 0.75;
 }
-
 .projectSection .projects {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 60px;
   margin: 40px 80px;
 }
-
 .projectSection .projects .projectVideo {
-  -webkit-box-shadow: 0px 0px 5px 0 #ffdcdc;
-          box-shadow: 0px 0px 5px 0 #ffdcdc;
+  box-shadow: 0px 0px 5px 0 #ffdcdc;
   margin: 0 10px;
   border-radius: 30px;
   height: 300px;
   position: relative;
-  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
-  transition: -webkit-box-shadow 0.3s ease-in-out;
   transition: box-shadow 0.3s ease-in-out;
-  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
-
 .projectSection .projects .projectVideo .projectImage {
   height: 100%;
   position: relative;
 }
-
 .projectSection .projects .projectVideo .projectImage img {
   opacity: 0;
   position: absolute;
@@ -508,27 +410,18 @@ nav .middle {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .projectSection .projects .projectVideo .projectImage .firstOne {
   opacity: 1;
 }
-
 .projectSection .projects .projectVideo .projectImage .fadeIn {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation: fadeIn 1s;
+  animation-fill-mode: forwards;
 }
-
 .projectSection .projects .projectVideo .projectImage .fadeOut {
-  -webkit-animation: fadeOut 1s;
-          animation: fadeOut 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
 }
-
 .projectSection .projects .projectVideo .info {
   position: absolute;
   border-radius: 30px;
@@ -540,67 +433,46 @@ nav .middle {
   background-color: transparent;
   color: transparent;
   opacity: 0;
-  -webkit-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
-  -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
-  -webkit-transition: opacity 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out;
 }
-
 .projectSection .projects .projectVideo .info h2 {
   font-size: 1.5em;
   margin: 0;
   text-align: center;
-  -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
   color: transparent;
 }
-
 .projectSection .projects .projectVideo .info p {
   padding: 10px 0;
   font-size: 1em;
   margin: 0;
   color: transparent;
-  -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
   text-align: center;
   height: 100px;
 }
-
 .projectSection .projects .projectVideo .info .techs {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   color: transparent;
-  -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
-
 .projectSection .projects .projectVideo .info .techs i {
   font-size: 1.4em;
   padding-right: 10px;
-  -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
   color: transparent;
 }
-
 .projectSection .projects .projectVideo .info .projectLinks {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 100%;
   margin: 20px 0px;
   position: absolute;
   bottom: 0;
 }
-
 .projectSection .projects .projectVideo .info .projectLinks a {
   display: block;
   margin-right: 30px;
@@ -611,40 +483,30 @@ nav .middle {
   background-color: white;
   color: transparent;
   font-weight: 600;
-  -webkit-transition: color 0.5s ease-in-out;
   transition: color 0.5s ease-in-out;
 }
-
 .projectSection .projects .projectVideo:hover {
-  -webkit-box-shadow: 0px 0px 5px 0 #ffb4b4;
-          box-shadow: 0px 0px 5px 0 #ffb4b4;
+  box-shadow: 0px 0px 5px 0 #ffb4b4;
 }
-
 .projectSection .projects .projectVideo:hover .info {
   opacity: 1;
   background-color: white;
 }
-
 .projectSection .projects .projectVideo:hover .info h2 {
   color: #fd5f5f;
 }
-
 .projectSection .projects .projectVideo:hover .info p {
   color: #ff9292;
 }
-
 .projectSection .projects .projectVideo:hover .info a {
   color: #fd5f5f;
 }
-
 .projectSection .projects .projectVideo:hover .info .techs {
   color: #ff9292;
 }
-
 .projectSection .projects .projectVideo:hover .info .techs i {
   color: #fd5f5f;
 }
-
 .projectSection .projects .projectVideo video {
   width: 100%;
   height: 100%;
@@ -663,14 +525,12 @@ nav .middle {
     margin: 20px 0;
   }
   .projectSection .projects {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
     margin: 20px 10px;
   }
   .projectSection .projects .projectVideo {
-    -webkit-box-shadow: 0px 0px 5px 0 #ffdcdc;
-            box-shadow: 0px 0px 5px 0 #ffdcdc;
+    box-shadow: 0px 0px 5px 0 #ffdcdc;
     margin: 10px 0;
     margin-bottom: 25px;
     border-radius: 20px;
@@ -697,74 +557,34 @@ nav .middle {
     margin-right: 10px;
   }
 }
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  30% {
-    opacity: 0.5;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   30% {
     opacity: 0.5;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
-
-@-webkit-keyframes fadeOut {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
-    opacity: 0;
-  }
-}
-
 @keyframes fadeOut {
   0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
   100% {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
     opacity: 0;
   }
 }
-
 .skillSection {
   padding: 20px 40px;
   margin-bottom: 10px;
 }
-
 .skillSection h1,
 .skillSection h2 {
   text-align: center;
@@ -772,65 +592,50 @@ nav .middle {
   margin: 20px 0;
   color: #fd5f5f;
 }
-
 .skillSection h1 a,
 .skillSection h2 a {
   color: #fd5f5f;
   text-decoration: none;
 }
-
 .skillSection h1 a:hover,
 .skillSection h2 a:hover {
   text-decoration: underline;
   opacity: 0.75;
 }
-
 .skillSection .core {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   text-align: center;
   width: 80%;
   margin: 40px auto;
 }
-
 .skillSection .core i {
   font-size: 6em;
   color: #fd5f5f;
 }
-
 .skillSection .core .name {
   font-size: 1.5em;
   margin: 20px 0;
   text-align: center;
   color: #ff9292;
 }
-
 .skillSection .skills {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
   text-align: center;
 }
-
 .skillSection .skills i {
   font-size: 4em;
   color: #fd5f5f;
 }
-
 .skillSection .skillNames {
   margin: 40px 0;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[7];
-      grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-gap: 20px;
 }
-
 .skillSection .skillNames div {
   text-align: center;
   border-top-left-radius: 15px;
@@ -839,14 +644,12 @@ nav .middle {
   border: 1px solid #ffe8e8;
   overflow: hidden;
 }
-
 .skillSection .skillNames div .nameSkill {
   display: block;
   padding: 10px;
   font-size: 1.1em;
   color: #fd5f5f;
 }
-
 .skillSection .skillNames div .level {
   position: absolute;
   bottom: 0;
@@ -867,16 +670,14 @@ nav .middle {
     font-size: 1.7em;
   }
   .skillSection .core {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     width: 90%;
   }
   .skillSection .core i {
     font-size: 8em;
   }
   .skillSection .skills {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .skillSection .skills i {
     font-size: 3em;
@@ -884,8 +685,7 @@ nav .middle {
   }
   .skillSection .skillNames {
     margin: 20px 0;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .skillSection .skillNames div .nameSkill {
     font-size: 0.85em;
@@ -893,5 +693,4 @@ nav .middle {
   .skillSection .skillNames div .level {
     height: 3px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
