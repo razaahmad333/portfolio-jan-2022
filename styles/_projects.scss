@@ -27,7 +27,7 @@
     margin: 40px 80px;
 
     .projectVideo {
-      box-shadow: 0px 0px 5px 0 $tertiary;
+      box-shadow: 0px 0px 3px 0 $tertiary;
       margin: 0 10px;
       border-radius: 30px;
       height: 300px;
@@ -139,14 +139,12 @@
       transition: box-shadow 0.3s ease-in-out;
 
       &:hover {
-        box-shadow: 0px 0px 5px 0 $secondary;
+        box-shadow: 0px 0px 6px 0 $tertiary;
 
         .info {
-          // display: block;
           opacity: 1;
           background-color: white;
 
-          // color: $red;
           h2 {
             color: $primary1;
           }
@@ -156,7 +154,7 @@
           }
 
           a {
-            color: $primary1;
+            color: $secondary;
           }
 
           .techs {

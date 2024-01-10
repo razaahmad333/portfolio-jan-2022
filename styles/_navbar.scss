@@ -44,6 +44,7 @@ nav {
 
   .middle {
     // display: none;
+    color: $secondary;
     font-size: 2.2em;
   }
 }
@@ -53,7 +54,7 @@ nav {
     // margin: 10px;
     border-radius: 4px;
     // border: 2px solid $secondary ;
-    box-shadow: 0 0 3px 0 $primary;
+    box-shadow: 0 0 4px 0 $tertiary;
     display: block;
     position: fixed;
     top: 0;
@@ -79,7 +80,7 @@ nav {
       padding: 0 0px;
 
       #menu {
-        color: $primary1;
+        color: $secondary;
       }
     }
 
@@ -103,7 +104,7 @@ nav {
       }
 
       hr {
-        border: 1px solid $tertiary;
+        border: 0.3px solid $tertiary;
       }
 
       .contactLinks {

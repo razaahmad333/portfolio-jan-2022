@@ -11,18 +11,18 @@
 }
 
 .filled {
-  color: #ff9292;
+  color: #666;
 }
 
-.outlined {
-  color: #fd5f5f;
+.outlined a {
+  color: #888;
 }
 
 .moreLink {
   text-align: center;
 }
 .moreLink a {
-  color: #fd5f5f;
+  color: #888;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 600;
@@ -62,16 +62,17 @@ nav a {
   font-size: 1.5em;
 }
 nav a:hover {
-  box-shadow: 0px 0px 3px 0px #ffdcdc;
+  box-shadow: 0px 0px 3px 0px #ddd;
 }
 nav .middle {
+  color: #888;
   font-size: 2.2em;
 }
 
 @media (max-width: 768px) {
   nav {
     border-radius: 4px;
-    box-shadow: 0 0 3px 0 #ff9292;
+    box-shadow: 0 0 4px 0 #ddd;
     display: block;
     position: fixed;
     top: 0;
@@ -95,7 +96,7 @@ nav .middle {
     padding: 0 0px;
   }
   nav .head #menu {
-    color: #fd5f5f;
+    color: #888;
   }
   nav .menu {
     display: flex;
@@ -114,7 +115,7 @@ nav .middle {
     box-shadow: none;
   }
   nav .menu hr {
-    border: 1px solid #ffdcdc;
+    border: 0.3px solid #ddd;
   }
   nav .menu .contactLinks {
     margin: 0px;
@@ -142,11 +143,14 @@ nav .middle {
   font-size: 8em;
   text-align: center;
 }
+.container .secondarize {
+  color: #888;
+}
 .container .designation {
   font-size: 2em;
   margin: 20px 0;
   text-align: center;
-  color: #ff9292;
+  color: #666;
 }
 .container .action {
   display: flex;
@@ -160,18 +164,19 @@ nav .middle {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 20px;
-  color: #fd5f5f;
-  box-shadow: 0px 0px 5px #ffdcdc;
+  color: #888;
+  box-shadow: 0px 0px 5px #ddd;
   transition: all 0.7s ease-in-out;
 }
 .container .action a i {
   font-size: 1em;
   padding-right: 10px;
-  color: #fd5f5f;
+  color: #888;
   text-shadow: none;
 }
 .container .action a:hover {
-  box-shadow: 0px 0px 5px #ffb4b4;
+  color: #fd5f5f;
+  box-shadow: 0px 0px 4px #ddd;
 }
 
 .contactLinks {
@@ -188,11 +193,11 @@ nav .middle {
   font-size: 2em;
 }
 .contactLinks a i {
-  color: #fd5f5f;
+  color: #888;
   transition: all 0.7s ease-in-out;
 }
-.contactLinks a i:hover {
-  color: #ff9292;
+.contactLinks a:hover i {
+  color: #fd5f5f;
 }
 
 .bgImage {
@@ -275,7 +280,7 @@ nav .middle {
 .blogSection h1 a:hover,
 .blogSection h2 a:hover {
   text-decoration: underline;
-  opacity: 0.75;
+  color: #888;
 }
 .blogSection .blogs {
   display: grid;
@@ -287,11 +292,11 @@ nav .middle {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 0px 5px 0px #ffdcdc;
+  box-shadow: 0px 0px 3px 0px #ddd;
   transition: all 0.5s ease-in-out;
 }
 .blogSection .blogs .blogCard:hover {
-  box-shadow: 0px 0px 5px 0px #ffb4b4;
+  box-shadow: 0px 0px 5px 0px #ddd;
 }
 .blogSection .blogs .blogCard .blogImage {
   width: 100%;
@@ -310,7 +315,7 @@ nav .middle {
   font-size: 1.2em;
   margin: 10px 0;
   height: 100px;
-  color: #ff9292;
+  color: #666;
 }
 .blogSection .blogs .blogCard .footer {
   display: flex;
@@ -320,13 +325,13 @@ nav .middle {
 }
 .blogSection .blogs .blogCard .blogDate {
   font-size: 1em;
-  color: #ff9292;
+  color: #666;
 }
 .blogSection .blogs .blogCard .blogLink a {
-  color: #fd5f5f;
+  color: #888;
   text-decoration: none;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 @media (max-width: 968px) {
@@ -388,7 +393,7 @@ nav .middle {
   margin: 40px 80px;
 }
 .projectSection .projects .projectVideo {
-  box-shadow: 0px 0px 5px 0 #ffdcdc;
+  box-shadow: 0px 0px 3px 0 #ddd;
   margin: 0 10px;
   border-radius: 30px;
   height: 300px;
@@ -486,7 +491,7 @@ nav .middle {
   transition: color 0.5s ease-in-out;
 }
 .projectSection .projects .projectVideo:hover {
-  box-shadow: 0px 0px 5px 0 #ffb4b4;
+  box-shadow: 0px 0px 6px 0 #ddd;
 }
 .projectSection .projects .projectVideo:hover .info {
   opacity: 1;
@@ -496,13 +501,13 @@ nav .middle {
   color: #fd5f5f;
 }
 .projectSection .projects .projectVideo:hover .info p {
-  color: #ff9292;
+  color: #666;
 }
 .projectSection .projects .projectVideo:hover .info a {
-  color: #fd5f5f;
+  color: #888;
 }
 .projectSection .projects .projectVideo:hover .info .techs {
-  color: #ff9292;
+  color: #666;
 }
 .projectSection .projects .projectVideo:hover .info .techs i {
   color: #fd5f5f;
@@ -530,7 +535,7 @@ nav .middle {
     margin: 20px 10px;
   }
   .projectSection .projects .projectVideo {
-    box-shadow: 0px 0px 5px 0 #ffdcdc;
+    box-shadow: 0px 0px 5px 0 #ddd;
     margin: 10px 0;
     margin-bottom: 25px;
     border-radius: 20px;
@@ -612,13 +617,13 @@ nav .middle {
 }
 .skillSection .core i {
   font-size: 6em;
-  color: #fd5f5f;
+  color: #888;
 }
 .skillSection .core .name {
   font-size: 1.5em;
   margin: 20px 0;
   text-align: center;
-  color: #ff9292;
+  color: #666;
 }
 .skillSection .skills {
   display: grid;
@@ -628,7 +633,7 @@ nav .middle {
 }
 .skillSection .skills i {
   font-size: 4em;
-  color: #fd5f5f;
+  color: #888;
 }
 .skillSection .skillNames {
   margin: 40px 0;
@@ -641,21 +646,21 @@ nav .middle {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   position: relative;
-  border: 1px solid #ffe8e8;
+  border: 1px solid #ddd;
   overflow: hidden;
 }
 .skillSection .skillNames div .nameSkill {
   display: block;
   padding: 10px;
   font-size: 1.1em;
-  color: #fd5f5f;
+  color: #888;
 }
 .skillSection .skillNames div .level {
   position: absolute;
   bottom: 0;
   border-radius: 25px;
   display: block;
-  background-color: #fd5f5f;
+  background-color: #888;
   height: 3px;
 }
 
