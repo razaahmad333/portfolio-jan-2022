@@ -1,48 +1,84 @@
 [
   {
-    "name": "Electron",
-    "description": "A web app where you can create parties, areas and conduct elections. In addition to that you can visualize the data too ",
+    "description": "A web app to keep track of your finances",
+    "github": "https://github.com/razaahmad333",
     "images": [
-      "./images/Electron/img 14.jpg",
-      "./images/Electron/img 15.jpg",
-      "./images/Electron/img 16.jpg",
-      "./images/Electron/img 17.jpg",
-      "./images/Electron/img 18.jpg"
+      "./images/Symfonia/img1.png",
+      "./images/Symfonia/img2.png",
+      "./images/Symfonia/img3.png",
+      "./images/Symfonia/img4.png",
+      "./images/Symfonia/img5.png"
     ],
-    "videoURL": "https://youtu.be/ZAVQ3KJ6rxE",
+    "live": "https://symfonia-pure-react.vercel.app/",
+    "name": "Symfonia",
     "techs": [
       "React",
-      "Sass/CSS3",
-      "ChartJS",
+      "Reactstrap",
+      "Supabase"
+    ],
+    "videoURL": "https://youtube.com/playlist?list=PLJo8E0EPTeNfeOjaoegatnmPRVLK_GVKT"
+  },
+  {
+    "description": "Players need to create long, valid words to win the game",
+    "github": "https://github.com/razaahmad333/vocablo",
+    "images": [
+      "./images/Vocablo/img1.png",
+      "./images/Vocablo/img2.png",
+      "./images/Vocablo/img3.png",
+      "./images/Vocablo/img4.png"
+    ],
+    "live": "https://www.linkedin.com/posts/ahmadrazakhan946_webdevelopment-sockets-learningeveryday-activity-7166100250141605888-QfPM",
+    "name": "Vocablo",
+    "techs": [
+      "NodeJS",
+      "Express",
+      "WebSocket",
+      "Firebase"
+    ],
+    "videoURL": "https://youtu.be/PMjdDBn9yUE?si=jq8J4Xx-0cnwHaMN"
+  },
+  {
+    "description": "A platform where you can create a SkillBook and apply for jobs or recruit talents ",
+    "github": "https://github.com/razaahmad333",
+    "images": [
+      "./images/Skillbook/img1.png",
+      "./images/Skillbook/img2.png",
+      "./images/Skillbook/img3.png",
+      "./images/Skillbook/img4.png",
+      "./images/Skillbook/img5.png"
+    ],
+    "live": "#",
+    "name": "SkillBook",
+    "techs": [
+      "React",
+      "TailwindCSS",
       "Express",
       "MongoDB"
     ],
-    "github": "https://github.com/razaahmad333/electron",
-    "live": "https://electron-client.vercel.app/"
+    "videoURL": "https://youtu.be/0Jh3RFqM15s"
   },
   {
-    "name": "Electron API",
-    "description": "It provides REST API for Electron and free to use for data visualization",
+    "description": "A website where you can find interesting activites to do in case you're feeling bored",
+    "github": "https://github.com/razaahmad333/Getting_bored",
     "images": [
-      "./images/ElectronApi/img 9.jpg",
-      "./images/ElectronApi/img 10.jpg",
-      "./images/ElectronApi/img 11.jpg",
-      "./images/ElectronApi/img 12.jpg",
-      "./images/ElectronApi/img 13.jpg"
+      "./images/Getting_Bored/img1.png",
+      "./images/Getting_Bored/img2.png",
+      "./images/Getting_Bored/img3.png",
+      "./images/Getting_Bored/img4.png",
+      "./images/Getting_Bored/img5.png"
     ],
-    "videoURL": "https://youtu.be/KNQrTIZqe1Y",
+    "live": "https://cosmic-sherbet-a5c655.netlify.app/",
+    "name": "Getting Bored?",
     "techs": [
-      "Express",
-      "MongoDB",
-      "HTML5",
-      "Sass/CSS3",
-      "Carbon"
+      "HTML/CSS",
+      "JQuery",
+      "REST API"
     ],
-    "github": "https://github.com/razaahmad333/electron",
-    "live": "https://electron-server.herokuapp.com/"
+    "videoURL": "#"
   },
   {
-    "name": "Mubaraah",
+    "description": " Mubaraah is a social network where you can meet people with similar interests and hobbies.",
+    "github": "https://github.com/razaahmad333/mubaraa",
     "images": [
       "./images/Mubaraah/img 19.jpg",
       "./images/Mubaraah/img 20.jpg",
@@ -50,18 +86,18 @@
       "./images/Mubaraah/img 22.jpg",
       "./images/Mubaraah/img 23.jpg"
     ],
-    "description": " Mubaraah is a social network where you can meet people with similar interests and hobbies.",
-    "videoURL": "https://www.youtube.com/watch?v=nyZLOekIAk8",
+    "live": "https://mubaraa-edaf4.web.app/",
+    "name": "Mubaraah",
     "techs": [
       "React",
       "Sass/CSS3",
       "Firebase"
     ],
-    "github": "https://github.com/razaahmad333/mubaraa",
-    "live": "https://mubaraa-edaf4.web.app/"
+    "videoURL": "https://www.youtube.com/watch?v=nyZLOekIAk8"
   },
   {
-    "name": "CSV.pdf",
+    "description": "Convert CSV file to PDF",
+    "github": "https://github.com/razaahmad333/csv-file-to-pdf",
     "id": 1,
     "images": [
       "./images/CSV.pdf/img 24.jpg",
@@ -70,19 +106,19 @@
       "./images/CSV.pdf/img 28.jpg",
       "./images/CSV.pdf/img 27.jpg"
     ],
-    "videoURL": "https://www.youtube.com/watch?v=YIo4XyVL5_o",
+    "live": "#",
+    "name": "CSV.pdf",
     "techs": [
       "ReactJS",
       "Redux",
       "TypeScript",
       "Sass/CSS3"
     ],
-    "description": "Convert CSV file to PDF",
-    "github": "https://github.com/razaahmad333/csv-file-to-pdf",
-    "live": "#"
+    "videoURL": "https://www.youtube.com/watch?v=YIo4XyVL5_o"
   },
   {
-    "name": "Galaxeome",
+    "description": "A web app where you can explore movies and tv shows",
+    "github": "https://github.com/razaahmad333",
     "images": [
       "./images/Galaxeome/img 29.jpg",
       "./images/Galaxeome/img 31.jpg",
@@ -90,19 +126,19 @@
       "./images/Galaxeome/img 33.jpg",
       "./images/Galaxeome/img 34.jpg"
     ],
-    "description": "A web app where you can explore movies and tv shows",
-    "videoURL": "https://www.youtube.com/watch?v=_MBPpFzTm18",
+    "live": "https://galaxeome.firebaseapp.com/",
+    "name": "Galaxeome",
     "techs": [
       "React",
       "Sass/CSS3",
       "REST API",
       "Firebase"
     ],
-    "github": "https://github.com/razaahmad333",
-    "live": "https://galaxeome.firebaseapp.com/"
+    "videoURL": "https://www.youtube.com/watch?v=_MBPpFzTm18"
   },
   {
-    "name": "Graphiti",
+    "description": "A initiative to create a platform for students to learn and share their knowledge of art and graphic designing ",
+    "github": "https://github.com/razaahmad333/graphiti-react-app",
     "images": [
       "./images/Graphiti/img 35.jpg",
       "./images/Graphiti/img 36.jpg",
@@ -110,18 +146,38 @@
       "./images/Graphiti/img 38.jpg",
       "./images/Graphiti/img 39.jpg"
     ],
-    "description": "A initiative to create a platform for students to learn and share their knowledge of art and graphic designing ",
-    "videoURL": "https://youtu.be/MK_GqAyh0DI",
+    "live": "https://graphiti-dev.web.app/",
+    "name": "Graphiti",
     "techs": [
       "React",
       "Sass/CSS3",
       "Firebase"
     ],
-    "github": "https://github.com/razaahmad333/graphiti-react-app",
-    "live": "https://graphiti-dev.web.app/"
+    "videoURL": "https://youtu.be/MK_GqAyh0DI"
   },
   {
-    "name": "Fashion Instant",
+    "description": "This is a beginner-friendly publication. In this blog, you will get to read about web development essentials such as HTML5, CSS3, and Javascript.",
+    "github": "https://github.com/WebD-Essentials",
+    "images": [
+      "./images/WebDEssentials/img1.png",
+      "./images/WebDEssentials/img2.png",
+      "./images/WebDEssentials/img3.png",
+      "./images/WebDEssentials/img4.png",
+      "./images/WebDEssentials/img5.png"
+    ],
+    "live": "https://webd-essentials.github.io/",
+    "name": "WebDEssentials",
+    "techs": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Firebase Storage API"
+    ],
+    "videoURL": "https://youtu.be/uatLNddZk7c"
+  },
+  {
+    "description": "A web app where you can find the latest fashion trends and style",
+    "github": "https://github.com/razaahmad333",
     "images": [
       "./images/Fashion/img 43.jpg",
       "./images/Fashion/img 44.jpg",
@@ -129,18 +185,37 @@
       "./images/Fashion/img 46.jpg",
       "./images/Fashion/img 47.jpg"
     ],
-    "description": "A web app where you can find the latest fashion trends and style",
-    "videoURL": "https://youtu.be/nmtKiUnA4_8",
+    "live": "https://fashion-insta-333.firebaseapp.com/",
+    "name": "Fashion Instant",
     "techs": [
       "React",
       "Sass/CSS3",
       "Firebase"
     ],
-    "github": "https://github.com/razaahmad333",
-    "live": "https://fashion-insta-333.firebaseapp.com/"
+    "videoURL": "https://youtu.be/nmtKiUnA4_8"
   },
   {
-    "name": "Philosophy",
+    "description": "The project includes user registration, login, and authentication features, along with various connected applications that allow users to perform different actions easily.",
+    "github": "https://github.com/razaahmad333/Parcean-vue-frontend",
+    "images": [
+      "./images/Parcean/img1.png",
+      "./images/Parcean/img2.png",
+      "./images/Parcean/img3.png",
+      "./images/Parcean/img4.png",
+      "./images/Parcean/img5.png"
+    ],
+    "live": "https://github.com/razaahmad333/Parcean-django-server",
+    "name": "Django-Vue BulmaCSS Toy Project",
+    "techs": [
+      "VueJS",
+      "BulmaCSS",
+      "Django"
+    ],
+    "videoURL": "https://youtu.be/YX2RKx1xfzk"
+  },
+  {
+    "description": "A web app where you can find  philosophy  ",
+    "github": "https://github.com/razaahmad333",
     "images": [
       "./images/Philosophy/img 48.jpg",
       "./images/Philosophy/img 49.jpg",
@@ -148,19 +223,19 @@
       "./images/Philosophy/img 52.jpg",
       "./images/Philosophy/img 53.jpg"
     ],
-    "description": "A web app where you can find  philosophy  ",
-    "videoURL": "https://www.youtube.com/watch?v=xDN51HbK2t8",
+    "live": "https://philosophy-it.firebaseapp.com/",
+    "name": "Philosophy",
     "techs": [
       "React",
       "Sass/CSS3",
       "REST API",
       "Firebase"
     ],
-    "github": "https://github.com/razaahmad333",
-    "live": "https://philosophy-it.firebaseapp.com/"
+    "videoURL": "https://www.youtube.com/watch?v=xDN51HbK2t8"
   },
   {
-    "name": "Jokesman",
+    "description": "A web app where you can find jokes",
+    "github": "https://github.com/razaahmad333",
     "images": [
       "./images/Jokesman/img 54.jpg",
       "./images/Jokesman/img 55.jpg",
@@ -168,19 +243,19 @@
       "./images/Jokesman/img 57.jpg",
       "./images/Jokesman/img 58.jpg"
     ],
-    "description": "A web app where you can find jokes",
-    "videoURL": "https://youtu.be/72NlURx3270",
+    "live": "https://jokesman.firebaseapp.com/",
+    "name": "Jokesman",
     "techs": [
       "React",
       "Sass/CSS3",
       "REST API",
       "Firebase"
     ],
-    "github": "https://github.com/razaahmad333",
-    "live": "https://jokesman.firebaseapp.com/"
+    "videoURL": "https://youtu.be/72NlURx3270"
   },
   {
-    "name": "Camping",
+    "description": "A web app where you can find camping spots near you",
+    "github": "https://github.com/razaahmad333",
     "id": 1,
     "images": [
       "./images/Camping/img 59.jpg",
@@ -189,18 +264,18 @@
       "./images/Camping/img 62.jpg",
       "./images/Camping/img 63.jpg"
     ],
-    "videoURL": "https://youtu.be/M8o2Uj-XapU",
+    "live": "https://zen-kepler-381c9d.netlify.app/",
+    "name": "Camping",
     "techs": [
       "HTML5",
       "Sass/CSS3",
       "JavaScript"
     ],
-    "description": "A web app where you can find camping spots near you",
-    "github": "https://github.com/razaahmad333",
-    "live": "https://zen-kepler-381c9d.netlify.app/"
+    "videoURL": "https://youtu.be/M8o2Uj-XapU"
   },
   {
-    "name": "Sneakers",
+    "description": "The frontend of app where you can find sneakers near you",
+    "github": "https://github.com/razaahmad333/sneakers",
     "id": 1,
     "images": [
       "./images/Sneakers/img 64.jpg",
@@ -209,18 +284,18 @@
       "./images/Sneakers/img 67.jpg",
       "./images/Sneakers/img 68.jpg"
     ],
-    "videoURL": "https://youtu.be/3RTuKzHucW8",
+    "live": "https://sneakers-eight.vercel.app/",
+    "name": "Sneakers",
     "techs": [
       "HTML5",
       "Sass/CSS3",
       "JavaScript"
     ],
-    "description": "The frontend of app where you can find sneakers near you",
-    "github": "https://github.com/razaahmad333/sneakers",
-    "live": "https://sneakers-eight.vercel.app/"
+    "videoURL": "https://youtu.be/3RTuKzHucW8"
   },
   {
-    "name": "Ads Managing Dashboard",
+    "description": "A website where you can manage your ads",
+    "github": "https://github.com/razaahmad333",
     "id": 1,
     "images": [
       "./images/AdsManaging/img 69.jpg",
@@ -229,18 +304,18 @@
       "./images/AdsManaging/img 72.jpg",
       "./images/AdsManaging/img 73.jpg"
     ],
-    "videoURL": "https://youtu.be/Qx1EBa3sH3U",
+    "live": "https://pedantic-neumann-134d1f.netlify.app/",
+    "name": "Ads Managing Dashboard",
     "techs": [
       "HTML5",
       "Sass/CSS3",
       "JavaScript"
     ],
-    "description": "A website where you can manage your ads",
-    "github": "https://github.com/razaahmad333",
-    "live": "https://pedantic-neumann-134d1f.netlify.app/"
+    "videoURL": "https://youtu.be/Qx1EBa3sH3U"
   },
   {
-    "name": "First Portfolio",
+    "description": "In March 2021 I created my first portfolio ",
+    "github": "https://github.com/razaahmad333/ahmad_raza",
     "id": 3,
     "images": [
       "./images/FirstPortfolio/img 74.jpg",
@@ -249,17 +324,17 @@
       "./images/FirstPortfolio/img 77.jpg",
       "./images/FirstPortfolio/img 78.jpg"
     ],
-    "videoURL": "https://youtu.be/pJPXeXAKQSM",
+    "live": "https://compassionate-mccarthy-aacaae.netlify.app/index.html",
+    "name": "First Portfolio",
     "techs": [
       "HTML5",
       "MaterializeCSS"
     ],
-    "description": "In March 2021 I created my first portfolio ",
-    "github": "https://github.com/razaahmad333/ahmad_raza",
-    "live": "https://compassionate-mccarthy-aacaae.netlify.app/index.html"
+    "videoURL": "https://youtu.be/pJPXeXAKQSM"
   },
   {
-    "name": "Second Portfolio",
+    "description": "In August 2021 I created my second portfolio ",
+    "github": "https://github.com/razaahmad333",
     "id": 3,
     "images": [
       "./images/augPortfolio/img 4.jpg",
@@ -268,17 +343,59 @@
       "./images/augPortfolio/img 7.jpg",
       "./images/augPortfolio/img 8.jpg"
     ],
-    "videoURL": "https://youtu.be/XZLlKSjsCPQ",
+    "live": "https://portfolio-2-nine.vercel.app/",
+    "name": "Second Portfolio",
     "techs": [
       "HTML5",
       "Sass/CSS3"
     ],
-    "description": "In August 2021 I created my second portfolio ",
-    "github": "https://github.com/razaahmad333",
-    "live": "https://portfolio-2-nine.vercel.app/"
+    "videoURL": "https://youtu.be/XZLlKSjsCPQ"
   },
   {
-    "name": "Fylo Clone",
+    "description": "A web app where you can create parties, areas and conduct elections. In addition to that you can visualize the data too ",
+    "github": "https://github.com/razaahmad333/electron",
+    "images": [
+      "./images/Electron/img 14.jpg",
+      "./images/Electron/img 15.jpg",
+      "./images/Electron/img 16.jpg",
+      "./images/Electron/img 17.jpg",
+      "./images/Electron/img 18.jpg"
+    ],
+    "live": "#",
+    "name": "Electron",
+    "techs": [
+      "React",
+      "Sass/CSS3",
+      "ChartJS",
+      "Express",
+      "MongoDB"
+    ],
+    "videoURL": "https://youtu.be/ZAVQ3KJ6rxE"
+  },
+  {
+    "description": "It provides REST API for Electron and free to use for data visualization",
+    "github": "https://github.com/razaahmad333/electron",
+    "images": [
+      "./images/ElectronApi/img 9.jpg",
+      "./images/ElectronApi/img 10.jpg",
+      "./images/ElectronApi/img 11.jpg",
+      "./images/ElectronApi/img 12.jpg",
+      "./images/ElectronApi/img 13.jpg"
+    ],
+    "live": "#",
+    "name": "Electron API",
+    "techs": [
+      "Express",
+      "MongoDB",
+      "HTML5",
+      "Sass/CSS3",
+      "Carbon"
+    ],
+    "videoURL": "https://youtu.be/KNQrTIZqe1Y"
+  },
+  {
+    "description": "I made this Fylo clone which was challenge from frontendmentor.com ",
+    "github": "https://github.com/razaahmad333/Fylo-landing-page",
     "id": 3,
     "images": [
       "./images/FyloClone/img 79.jpg",
@@ -287,17 +404,17 @@
       "./images/FyloClone/img 82.jpg",
       "./images/FyloClone/img 83.jpg"
     ],
-    "videoURL": "https://www.youtube.com/watch?v=_I39pVoobHE",
+    "live": "https://condescending-thompson-721592.netlify.app/",
+    "name": "Fylo Clone",
     "techs": [
       "HTML5",
       "Sass/CSS3"
     ],
-    "description": "I made this Fylo clone which was challenge from frontendmentor.com ",
-    "github": "https://github.com/razaahmad333/Fylo-landing-page",
-    "live": "https://condescending-thompson-721592.netlify.app/"
+    "videoURL": "https://www.youtube.com/watch?v=_I39pVoobHE"
   },
   {
-    "name": "Quotesman",
+    "description": "A web app where you can find quotes",
+    "github": "https://github.com/razaahmad333/quotesman",
     "id": 3,
     "images": [
       "./images/Quotesman/img 84.jpg",
@@ -306,18 +423,18 @@
       "./images/Quotesman/img 87.jpg",
       "./images/Quotesman/img 88.jpg"
     ],
-    "videoURL": "https://youtu.be/BdZMIKr-uaU",
+    "live": "https://quotesman.vercel.app/",
+    "name": "Quotesman",
     "techs": [
       "HTML5",
       "Bootstrap",
       "JavaScript"
     ],
-    "description": "A web app where you can find quotes",
-    "github": "https://github.com/razaahmad333/quotesman",
-    "live": "https://quotesman.vercel.app/"
+    "videoURL": "https://youtu.be/BdZMIKr-uaU"
   },
   {
-    "name": "Tip Calculator",
+    "description": "I made this tip calculator which was challenge from frontendmentor.com ",
+    "github": "https://github.com/razaahmad333/tip-calculator",
     "id": 3,
     "images": [
       "./images/TipCalculator/img 89.jpg",
@@ -326,18 +443,18 @@
       "./images/TipCalculator/img 92.jpg",
       "./images/TipCalculator/img 93.jpg"
     ],
-    "videoURL": "https://youtu.be/aMncfydiQ10",
+    "live": "https://condescending-mcclintock-5fa5f8.netlify.app/",
+    "name": "Tip Calculator",
     "techs": [
       "HTML5",
       "Sass/CSS3",
       "JavaScript"
     ],
-    "description": "I made this tip calculator which was challenge from frontendmentor.com ",
-    "github": "https://github.com/razaahmad333/tip-calculator",
-    "live": "https://condescending-mcclintock-5fa5f8.netlify.app/"
+    "videoURL": "https://youtu.be/aMncfydiQ10"
   },
   {
-    "name": "Time Tracking Dashboard",
+    "description": " I made this time tracking dashboard which was challenge from frontendmentor.com ",
+    "github": "https://github.com/razaahmad333/Time-tracking-dashboard",
     "id": 3,
     "images": [
       "./images/TimeTracking/img 94.jpg",
@@ -346,14 +463,13 @@
       "./images/TimeTracking/img 97.jpg",
       "./images/TimeTracking/img 99.jpg"
     ],
-    "videoURL": "https://youtu.be/F_G9Ep4lwMI",
+    "live": "https://time-tracking-dashboard-smoky.vercel.app/",
+    "name": "Time Tracking Dashboard",
     "techs": [
       "HTML5",
       "Sass/CSS3",
       "JavaScript"
     ],
-    "description": " I made this time tracking dashboard which was challenge from frontendmentor.com ",
-    "github": "https://github.com/razaahmad333/Time-tracking-dashboard",
-    "live": "https://time-tracking-dashboard-smoky.vercel.app/"
+    "videoURL": "https://youtu.be/F_G9Ep4lwMI"
   }
 ]
